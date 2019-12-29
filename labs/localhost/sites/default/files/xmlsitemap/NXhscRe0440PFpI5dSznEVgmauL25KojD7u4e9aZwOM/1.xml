@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://localhost:8080/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost:8080/statya/pervyy-alyas</loc><lastmod>2019-11-25T06:07Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/10</loc><lastmod>2019-12-02T07:34Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/11</loc><lastmod>2019-12-02T07:54Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/12</loc><lastmod>2019-12-02T09:57Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/13</loc><lastmod>2019-12-02T09:58Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/14</loc><lastmod>2019-12-02T10:06Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/15</loc><lastmod>2019-12-08T13:17Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/16</loc><lastmod>2019-12-08T14:16Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/node/17</loc><lastmod>2019-12-15T18:42Z</lastmod><changefreq>hourly</changefreq></url>
+<url><loc>http://localhost:8080/node/3</loc><lastmod>2019-11-25T07:41Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/4</loc><lastmod>2019-11-25T08:11Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/5</loc><lastmod>2019-11-25T08:21Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/6</loc><lastmod>2019-11-25T09:16Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/7</loc><lastmod>2019-11-25T09:39Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/node/8</loc><lastmod>2019-12-01T20:10Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://localhost:8080/taxonomy/term/1</loc><lastmod>2019-11-25T06:07Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/taxonomy/term/2</loc><lastmod>2019-11-25T06:07Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/notebooks</loc><lastmod>2019-11-25T06:13Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/seria-g</loc><lastmod>2019-11-25T07:45Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/seria-y</loc><lastmod>2019-11-25T06:16Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/macbook</loc><lastmod>2019-11-25T07:59Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/apple</loc><lastmod>2019-11-25T08:04Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8080/seria-s</loc><lastmod>2019-11-25T08:50Z</lastmod><changefreq>monthly</changefreq></url>
+</urlset>

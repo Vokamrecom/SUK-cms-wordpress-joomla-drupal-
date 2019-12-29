@@ -1,0 +1,22 @@
+/* Please be careful when editing this file.
+   Don't change our color variables in line 5 & 6.
+*/
+
+$main-color: false !default;
+$sub-color: false !default;
+
+@if $main-color != false {
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li > span.nav-header:not(.get-it):after, nav.navbar.sunfw-menu-head ul.navbar-nav > li > a:not(.get-it):after {
+		background: $main-color;
+	}
+	div.pagination ul.pagination li a:hover,
+	div.pagination ul.pagination li.active a {
+		color: $main-color;
+	}
+}
+
+@if $sub-color != false {
+
+}
+
+

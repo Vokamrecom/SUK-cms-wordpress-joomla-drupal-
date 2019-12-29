@@ -1,0 +1,8 @@
+name: Task 3
+type: module
+description: 'Wrest module 3'
+core: 8.x
+package: Wrest modules
+dependencies:
+    - node
+    - user

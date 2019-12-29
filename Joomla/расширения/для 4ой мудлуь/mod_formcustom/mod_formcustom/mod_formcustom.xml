@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+
+    <name>mod_formcustom</name>
+    <author>Kiril</author>
+    <creationDate> October 2019 </creationDate>
+    <copyright>copyright</copyright>
+    <license>License</license>
+    <version>1.1</version>
+
+    <description>Славненько</description>
+
+    <files>
+        <filename>mod_formcustom.xml</filename>
+        <filename module="mod_formcustom">mod_formcustom.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+    </files>
+
+</extension>

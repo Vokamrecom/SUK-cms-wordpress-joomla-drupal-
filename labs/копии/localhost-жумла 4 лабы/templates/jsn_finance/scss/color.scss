@@ -1,0 +1,278 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+	.sunfw-content { 
+		.main-color {
+			color: $main-color;
+		}
+		.text-main-color-hover:hover {
+			color: $main-color !important;
+			background: #FFF;
+		}
+		.bg-main-color-hover:hover {
+			background: $main-color;
+			color: #FFF;
+		}
+		.bg-main-color{
+			background: $main-color;
+			color: #FFF;
+		}
+	}
+	.sunfw-menu-head .navbar-header button.navbar-toggle{
+		color: $main-color;
+	}
+	ul {
+		&.newsfeed,
+		&.archive-module,
+		&.relateditems,
+		&.categories-module,
+		&.category-module,
+		&.mostread,
+		&.latestnews,
+		&.latestusers {
+			li {
+				color: $main-color;
+				a * {
+					color: $main-color;
+				}
+			}
+		}
+		&.categories-module ul {
+			li {
+				color: $main-color;
+			}
+		}
+	}
+	.item-page.edit ul.nav-tabs > li {
+		&.active,
+		&:hover {
+			> a{
+				color: $main-color;
+				&:before {
+					background: $main-color;
+				}
+			}
+		}
+	}
+	.content_rating + form input[name="submit_vote"] {
+		background-color: $main-color;
+	}
+	.content_rating + form {
+		select,input[name="submit_vote"]{
+			color: $main-color;
+		}
+	}
+	.breadcrumb {
+		li a:hover {
+			color: rgba($main-color,0.5);
+		}
+	}
+	.bg-main-color {
+		.jsn-es-background {
+			background-color: $main-color !important;
+		}
+	}
+	ul.nav.menu li a:hover,
+	.btn.btn-plain:hover {
+		color: $main-color;
+	}
+	.sunfw-scrollup:hover {
+		background-color: desaturate(adjust-hue($main-color, 8.6815%), 88.6275%);
+	}
+	nav.navbar.sunfw-menu-head #menu_item_menu ul.navbar-nav {
+		> li {
+			&:hover{
+				.get-it {
+					color: $main-color!important;
+				}
+			}
+		}
+	}
+	ul.pager li > {
+		a, 
+		span{
+			border-color: $main-color;
+			&:hover{
+				background-color: $main-color;
+			}
+		}
+	}
+	.pb-btn.btn{
+		background-color: $main-color !important;
+		&:hover{
+			color: $main-color!important;
+		}
+	}
+	.sunfw-link {
+		background: $main-color;
+	}
+	.sunfw_article_type_gallery {
+		.btn {
+			border-color: $main-color; 
+		}
+	}
+	
+	/*======Style button color when active and hover====*/
+	[class*="btn-"]:not(.btn-toolbar):not(.btn-group),
+	.btn.btn-primary,
+	.btn.btn-default{
+		&:active,
+		&.active,
+		.open > &.dropdown-toggle {
+			color: #fff;
+			background-color: $main-color;
+			border-color: inherit;
+			box-shadow: 0 0 10px 0 rgba(20, 21, 23, 0.05);
+			&:hover,
+			&:focus,
+			&.focus {
+				background-color: $main-color;
+				box-shadow: 0 0 10px 0 rgba(20, 21, 23, 0.05);
+				border-color: inherit;
+			}
+		}
+		&.btn-outline{
+			border-color: $main-color;
+			color: $main-color;
+			&:hover,
+			&:active:hover{
+				background: $main-color;
+				color: #FFF;
+			}
+		}
+		&[disabled]:hover{
+			background: $main-color;
+			color: #fff;
+		}
+	}
+	.border-main-color-hover:hover,
+	.btn[class*="btn-"]:not(.btn-primary):not(.btn-default):not(.navbar-toggle):not(.btn-danger):not(.btn-info):not(.btn-success):not(.btn-warning):hover {
+		border-color: $main-color;
+	}
+	#pb3-switch-editor-button{
+		border: 1px solid $main-color;
+		border-radius: 0;
+		color: $main-color;
+		&:hover{
+			background: $main-color;
+			color: #fff;
+		}
+	}
+	/*======Style form====*/
+	body #tpPortfolio.tplfolio .element .TzInner .TzArticleMedia > div i.tp,
+	body #tpPortfolio #tz_append a,
+	.login .control-group label{
+		color: $main-color;
+	}
+	body #tpPortfolio.tplfolio .element .TzInner .TzArticleMedia > div .white-rounded:hover,
+	#tpPortfolio #tz_append a:hover,
+	#tpPortfolio #tz_options .option-combo a.selected,
+	body .tpBlog .TzItemsRow .TzItem .tpBody a.TzReadmore,
+	body .tpBlog .TzItemsRow .date-group .date,
+	body [class*="__pf"] .pf-form__submit,
+	body .element .TzInner:hover,
+	.jsn-contact-form .jsn-uniform .form-actions .btn-toolbar .btn{
+		background: $main-color;
+	}
+	body .TzContent.type-1st-portfolio .TzInner .TzPortfolioDescription,
+	.tplAmuda .tp-item-box-container .tp-thumb .tpPortfolioDescription,
+	.tplgaia .gaia-items .tp-item-box-container .tp-thumb .tpArticleMedia .tpTools {
+		background: rgba($main-color,0.8);
+	}
+	.over-main-color-bg:before {
+		background: rgba($main-color,0.8);
+	}
+	.btn.btn-default.text-main-color {
+		color: $main-color;
+		&:hover {
+			color: #fff;
+		}
+	}
+	nav.navbar.sunfw-menu-head #menu_item_menu ul.navbar-nav {
+		> li {
+			> a.get-it	{
+				&.btn-primary {
+					color: $main-color;
+				}
+			}
+		}
+	}
+}
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	.breadcrumb {
+		li + li:before{
+			color: $sub-color;
+		}
+	}
+	.item-page.edit .control-group label {
+		color: $sub-color;
+	}
+	.sunfw-item-module-position {
+		.p-right ul.nav li ul.nav-child li {
+					color: $sub-color;
+				}
+	}
+	[class*="btn-"]{
+		&:active,
+		&.active,
+		.open > &.dropdown-toggle {
+			&:hover,
+			&:focus,
+			&.focus {
+				color: $sub-color;
+			}
+		}
+	}
+	.btn.btn-outline{
+		&:hover{
+			color: $sub-color;
+		}
+	}
+	/*======Style Tree Menu, Side Menu====*/
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+
+			&:hover, &:active {
+				a, 
+				span.nav-header,
+				span.separator{
+					&:not(.get-it){
+						color: $sub-color;
+					}
+				}
+			}
+		}
+	}
+	
+	&.nav[class*='menu-'] {
+		li a.get-it {
+			&.btn-primary {
+				&:hover {
+					background-color: $sub-color;
+				}
+			}
+		}
+	}
+	ul.pager li > {
+		a,span{
+			&:hover{
+				color: $sub-color;
+			}
+		}
+	}
+	.pb-btn.btn {
+		color: $sub-color !important;
+		&:hover{
+			background-color: $sub-color !important;
+		}
+	}
+}
+$sub-color: false !default;
+$main-color: false !default;
+@if($sub-color != false and $main-color != false){
+	.over-mix-colors-bg:before {
+		background-image: linear-gradient(to left, rgba($sub-color,0.7), rgba($main-color,0.7));
+	}
+}

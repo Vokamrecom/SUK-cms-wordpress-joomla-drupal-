@@ -1,0 +1,5 @@
+news.news_menu_settings:
+ title: 'News'
+ parent: system.admin_config_services
+ description: 'Configure the news settings, choose news vendors.'
+ route_name: news.news_path_settings

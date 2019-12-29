@@ -1,0 +1,1337 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Project-Id-Version: USP 2018 Nov\n"
+"Language: zh_TW\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Name of the plugin
+#: user-submitted-posts.php:44 library/support-panel.php:5
+msgid "User Submitted Posts"
+msgstr "使用者投稿的文章"
+
+#: user-submitted-posts.php:81
+msgid "requires WordPress "
+msgstr "需要 WordPress "
+
+#: user-submitted-posts.php:82
+msgid " or higher, and has been deactivated! "
+msgstr " 或更高版本，並已停用！ "
+
+#: user-submitted-posts.php:83
+msgid "Please return to the"
+msgstr "請回到"
+
+#: user-submitted-posts.php:84
+msgid "WordPress Admin Area"
+msgstr "WordPress管理控制台"
+
+#: user-submitted-posts.php:85
+msgid "to upgrade WordPress and try again."
+msgstr "請升级 WordPress 並再试一次。"
+
+#: user-submitted-posts.php:125
+msgid "User Submitted Post"
+msgstr "使用者投稿的文章"
+
+#: user-submitted-posts.php:433
+msgid "User Submitted Post Info"
+msgstr "使用者投稿的文章資訊"
+
+#: user-submitted-posts.php:463
+msgid "Submitter Name: "
+msgstr "投稿者姓名： "
+
+#: user-submitted-posts.php:464
+msgid "Submitter Email: "
+msgstr "投稿者電子郵件： "
+
+#: user-submitted-posts.php:465
+msgid "Submitter URL: "
+msgstr "投稿者網址： "
+
+#: user-submitted-posts.php:466
+msgid "Submitter IP: "
+msgstr "投稿者 IP： "
+
+#: user-submitted-posts.php:517
+msgid "Show USP Posts"
+msgstr "顯示 USP 文章"
+
+#: user-submitted-posts.php:518 library/plugin-settings.php:999
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1301
+msgid " files required"
+msgstr "檔案是必要的 "
+
+#: user-submitted-posts.php:1302
+msgid " file required"
+msgstr "檔案是必要的 "
+
+#: user-submitted-posts.php:1304
+msgid " files"
+msgstr " 檔案"
+
+#: user-submitted-posts.php:1305
+msgid " file"
+msgstr " 檔案"
+
+#: user-submitted-posts.php:1307 user-submitted-posts.php:1308
+#: user-submitted-posts.php:1309 user-submitted-posts.php:1310
+msgid " pixels"
+msgstr " 像素"
+
+#: user-submitted-posts.php:1312 library/core-functions.php:215
+#: library/plugin-settings.php:290 library/plugin-settings.php:309
+#: library/plugin-settings.php:711 library/plugin-settings.php:1243
+msgid "Custom Field"
+msgstr "自定欄位"
+
+#: user-submitted-posts.php:1314
+msgid "Custom checkbox required"
+msgstr "請勾選確認框"
+
+#: user-submitted-posts.php:1317
+msgid "An error occurred. Please go back and try again."
+msgstr "錯誤發生，請返回重試。"
+
+#: user-submitted-posts.php:1327
+msgid "User login required"
+msgstr "請登錄"
+
+#: user-submitted-posts.php:1328
+msgid "User name required"
+msgstr "請填入您的網名"
+
+#: user-submitted-posts.php:1329
+msgid "Post title required"
+msgstr "請填入文章標題"
+
+#: user-submitted-posts.php:1330
+msgid "User URL required"
+msgstr "請填入您的網址"
+
+#: user-submitted-posts.php:1331
+msgid "Post tags required"
+msgstr "請填入標籤"
+
+#: user-submitted-posts.php:1332
+msgid "Post category required"
+msgstr "請選擇文章分類"
+
+#: user-submitted-posts.php:1333
+msgid "Post content required"
+msgstr "請填入文章內容"
+
+#: user-submitted-posts.php:1334 user-submitted-posts.php:1335
+msgid "Correct captcha required"
+msgstr "請填入驗證碼"
+
+#: user-submitted-posts.php:1336
+msgid "User email required"
+msgstr "請填入電子郵件地址"
+
+#: user-submitted-posts.php:1337
+msgid "Please check your email and try again"
+msgstr "請檢查你的電子郵件，然後重試"
+
+#: user-submitted-posts.php:1338
+msgid "Non-empty value for hidden field"
+msgstr "隱藏的欄位不能為空值"
+
+#: user-submitted-posts.php:1339
+msgid "Minimum number of images not met"
+msgstr "未達圖片張數下限"
+
+#: user-submitted-posts.php:1340
+msgid "Maximum number of images exceeded "
+msgstr "超過最大圖片張數上限 "
+
+#: user-submitted-posts.php:1341
+msgid "Minimum image width not met"
+msgstr "未達到最小圖片寬度"
+
+#: user-submitted-posts.php:1342
+msgid "Image width exceeds maximum"
+msgstr "圖片寬度超過上限"
+
+#: user-submitted-posts.php:1343
+msgid "Minimum image height not met"
+msgstr "未達最小圖片高度"
+
+#: user-submitted-posts.php:1344
+msgid "Image height exceeds maximum"
+msgstr "圖片高度超過上限"
+
+#: user-submitted-posts.php:1345
+msgid "File type not allowed (please upload images only)"
+msgstr "不允許上傳此類型檔案（請上傳圖片檔）"
+
+#: user-submitted-posts.php:1346
+msgid " required"
+msgstr " 必要"
+
+#: user-submitted-posts.php:1351
+msgid "File not uploaded. Please check the file and try again."
+msgstr "檔案未上傳成功！請檢查檔案，然後重試。"
+
+#: user-submitted-posts.php:1355
+msgid "The file(s) could not be uploaded"
+msgstr "檔案無法上傳"
+
+#: user-submitted-posts.php:1357
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "投稿失敗，請洽網站管理員。"
+
+#: user-submitted-posts.php:1358
+msgid "Duplicate post title. Please try again."
+msgstr "文章標題與其他文章重覆，請更換標題再試一次。"
+
+#: user-submitted-posts.php:1368
+msgid "Error: "
+msgstr "錯誤： "
+
+#: user-submitted-posts.php:1394
+msgid "Return to form"
+msgstr "回到表單"
+
+#: user-submitted-posts.php:1424 library/plugin-settings.php:975
+msgid "Please"
+msgstr "請"
+
+#: user-submitted-posts.php:1425
+msgid "log in"
+msgstr "登入"
+
+#: user-submitted-posts.php:1426
+msgid "to submit content!"
+msgstr "投稿！"
+
+#: views/submission-form.php:46 views/submission-form-alt.php:55
+msgid "Please complete the required fields."
+msgstr "請確實填寫必要欄位。"
+
+#: views/submission-form.php:56 views/submission-form.php:57
+#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+msgid "Your Name"
+msgstr "您的網名"
+
+#: views/submission-form.php:62 views/submission-form.php:63
+#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+msgid "Your URL"
+msgstr "您的網址"
+
+#: views/submission-form.php:68 views/submission-form.php:69
+#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+msgid "Your Email"
+msgstr "您的電子信箱"
+
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
+#: library/plugin-settings.php:1036
+msgid "Post Title"
+msgstr "文章標題"
+
+#: views/submission-form.php:80 views/submission-form.php:81
+#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
+#: library/plugin-settings.php:1037
+msgid "Post Tags"
+msgstr "標籤"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Antispam Question"
+msgstr "反垃圾訊息驗證"
+
+#: views/submission-form.php:98 views/submission-form-alt.php:103
+#: library/plugin-settings.php:1038
+msgid "Post Category"
+msgstr "文章分類"
+
+#: views/submission-form.php:100 views/submission-form-alt.php:105
+msgid "Please select a category.."
+msgstr "請選擇一個分類…"
+
+#: views/submission-form.php:135 views/submission-form.php:136
+#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
+#: library/plugin-settings.php:1039
+msgid "Post Content"
+msgstr "文章內容"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Verification"
+msgstr "驗證"
+
+#: views/submission-form.php:149 views/submission-form-alt.php:154
+msgid "Upload an Image"
+msgstr "上傳圖片"
+
+#: views/submission-form.php:158 views/submission-form-alt.php:163
+msgid "Add another image"
+msgstr "添加另一張圖片"
+
+#: views/submission-form.php:180 views/submission-form-alt.php:185
+msgid "Human verification: leave this field empty."
+msgstr "真人驗證：請將此欄位留空。"
+
+#: views/submission-form.php:204 views/submission-form-alt.php:209
+msgid "Submit Post"
+msgstr "投稿"
+
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "重置表單"
+
+#: library/shortcode-misc.php:128
+msgid "View full post"
+msgstr "查看所有文章"
+
+#: library/support-panel.php:52
+msgid "Perishable Press Books"
+msgstr "陳舊報刊圖書"
+
+#: library/support-panel.php:53
+msgid "Plugin Planet"
+msgstr "外掛星球"
+
+#: library/support-panel.php:54
+msgid "Donate via PayPal"
+msgstr "以 PayPal 打賞"
+
+#: library/support-panel.php:56
+msgid "books"
+msgstr "書籍"
+
+#: library/support-panel.php:57
+msgid "plugins"
+msgstr "外掛"
+
+#: library/support-panel.php:58
+msgid "donation"
+msgstr "打賞"
+
+#: library/support-panel.php:60
+msgid "Thank you for using"
+msgstr "感謝您的使用"
+
+#: library/support-panel.php:61
+msgid "Please show support by purchasing one of my"
+msgstr "請透過購買来表示支持"
+
+#: library/support-panel.php:62
+msgid "or"
+msgstr "或"
+
+#: library/support-panel.php:62
+msgid "or by making a"
+msgstr "或藉由做"
+
+#: library/support-panel.php:63
+msgid "Your generous support helps future development of"
+msgstr "您的慷慨支持有助於未来的研發"
+
+#: library/support-panel.php:64
+msgid "and is greatly appreciated."
+msgstr "非常感謝。"
+
+#: library/support-panel.php:66
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "不管打賞多少都有助於我繼續開發這個免费的外掛和其他超讚的 WordPress 資源。"
+
+#: library/enqueue-scripts.php:83 library/enqueue-scripts.php:117
+msgid "Incorrect response."
+msgstr "解答錯誤。"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "為了進階功能取得無限制的 USP 專業版！"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "升級成專業版"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "設定"
+
+#: library/plugin-settings.php:55 library/plugin-settings.php:1007
+#: library/plugin-settings.php:1595
+msgid "Plugin Homepage"
+msgstr "外掛首頁"
+
+#: library/plugin-settings.php:56
+msgid "Homepage"
+msgstr "首頁"
+
+#: library/plugin-settings.php:61
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "在 WordPress.org 上给 USP 給五顆星"
+
+#: library/plugin-settings.php:62
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "為此外掛評分&nbsp;&raquo;"
+
+#: library/plugin-settings.php:120
+msgid "WP Post (recommended)"
+msgstr "WP Post（推薦）"
+
+#: library/plugin-settings.php:124
+msgid "WP Page"
+msgstr "WP Page"
+
+#: library/plugin-settings.php:140
+msgid "HTML5 Form + Default CSS"
+msgstr "HTML5 格式 + 預設 CSS"
+
+#: library/plugin-settings.php:140
+msgid "(Recommended)"
+msgstr "（推薦）"
+
+#: library/plugin-settings.php:144
+msgid "HTML5 Form + Disable CSS"
+msgstr "HTML5 格式 + 不使用 CSS"
+
+#: library/plugin-settings.php:144
+msgid "(Provide your own styles)"
+msgstr "（自訂自己的風格）"
+
+#: library/plugin-settings.php:148
+msgid "Custom Form + Custom CSS"
+msgstr "自定格式 + 自定 CSS"
+
+#: library/plugin-settings.php:148
+msgid "(Provide your own form template &amp; styles)"
+msgstr "（提供自己的表單主題&amp;樣式）"
+
+#: library/plugin-settings.php:164 library/plugin-settings.php:188
+#: library/plugin-settings.php:211 library/plugin-settings.php:235
+msgid "Auto-display before post content"
+msgstr "發布内容前自動顯示"
+
+#: library/plugin-settings.php:168 library/plugin-settings.php:192
+#: library/plugin-settings.php:215 library/plugin-settings.php:239
+msgid "Auto-display after post content"
+msgstr "發布内容後自動顯示"
+
+#: library/plugin-settings.php:172
+msgid "Do not auto-display submitted images"
+msgstr "不要自動顯示上傳的圖片"
+
+#: library/plugin-settings.php:196
+msgid "Do not auto-display submitted email"
+msgstr "不要自動顯示提交的電子郵件地址"
+
+#: library/plugin-settings.php:219
+msgid "Do not auto-display submitted URL"
+msgstr "不要自動顯示提交的網址"
+
+#: library/plugin-settings.php:243
+msgid "Do not auto-display the Custom Field"
+msgstr "不要自動顯示自定欄位"
+
+#: library/plugin-settings.php:271 library/plugin-settings.php:303
+#: library/plugin-settings.php:336 library/plugin-settings.php:368
+msgid "Display and require"
+msgstr "顯示這個項目和要求必填"
+
+#: library/plugin-settings.php:272 library/plugin-settings.php:304
+msgid "Display but do not require"
+msgstr "顯示這個項目和不要求必填"
+
+#: library/plugin-settings.php:273 library/plugin-settings.php:305
+#: library/plugin-settings.php:337 library/plugin-settings.php:369
+msgid "Disable this field"
+msgstr "不使用此欄位"
+
+#: library/plugin-settings.php:308 library/plugin-settings.php:340
+#: library/plugin-settings.php:372 library/plugin-settings.php:404
+msgid "(Visit"
+msgstr "（訪问"
+
+#: library/plugin-settings.php:309 library/plugin-settings.php:341
+#: library/plugin-settings.php:373 library/plugin-settings.php:405
+msgid "to configure options)"
+msgstr "設置選項）"
+
+#: library/plugin-settings.php:324 library/plugin-settings.php:341
+#: library/plugin-settings.php:1261 library/plugin-settings.php:1266
+msgid "Challenge Question"
+msgstr "挑戰題"
+
+#: library/plugin-settings.php:356 library/plugin-settings.php:373
+#: library/plugin-settings.php:1283
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:388
+msgid "Post Images"
+msgstr "發布圖片"
+
+#: library/plugin-settings.php:400
+msgid "Display"
+msgstr "顯示"
+
+#: library/plugin-settings.php:401
+msgid "Disable"
+msgstr "不使用"
+
+#: library/plugin-settings.php:405 library/plugin-settings.php:1344
+msgid "Image Uploads"
+msgstr "圖片上傳"
+
+#: library/plugin-settings.php:485
+msgid "Draft"
+msgstr "草稿"
+
+#: library/plugin-settings.php:486
+msgid "Pending (default)"
+msgstr "待審核（預設值）"
+
+#: library/plugin-settings.php:487
+msgid "Publish immediately"
+msgstr "立即發佈"
+
+#: library/plugin-settings.php:488
+msgid "Publish after 1 approved post"
+msgstr "核可了一次文章後即可即時發佈"
+
+#: library/plugin-settings.php:489
+msgid "Publish after "
+msgstr "發佈後 "
+
+#: library/plugin-settings.php:489
+msgid " approved posts"
+msgstr "核可的文章"
+
+#: library/plugin-settings.php:655
+msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
+msgstr "發生錯誤。請確認你已填寫了文章標題及內容。禁止只貼圖片不寫任何內容。"
+
+#: library/plugin-settings.php:669
+msgid "Please select your image(s) to upload."
+msgstr "請選擇要上傳的圖片。"
+
+#: library/plugin-settings.php:675
+msgid "Success! Thank you for your submission."
+msgstr "投稿成功！"
+
+#: library/plugin-settings.php:701
+msgid "Email"
+msgstr "電子郵件"
+
+#: library/plugin-settings.php:702
+msgid "URL"
+msgstr "網址"
+
+#: library/plugin-settings.php:962
+msgid "Toggle all panels"
+msgstr "切换所有面板"
+
+#: library/plugin-settings.php:971
+msgid "We need your support!"
+msgstr "我们需要你的支持！"
+
+#: library/plugin-settings.php:975
+msgid "Make a donation via PayPal"
+msgstr "透過 PayPal 打賞"
+
+#: library/plugin-settings.php:975
+msgid "make a donation"
+msgstr "打賞"
+
+#: library/plugin-settings.php:975
+msgid "and/or"
+msgstr "和/或"
+
+#: library/plugin-settings.php:976
+msgid "Rate and review at the Plugin Directory"
+msgstr "在外掛列表中評分與留言"
+
+#: library/plugin-settings.php:977
+msgid "give this plugin a 5-star rating"
+msgstr "给這個外掛五顆星！"
+
+#: library/plugin-settings.php:981
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "您的慷慨支持可以繼續研發這個免費外掛。感謝你！"
+
+#: library/plugin-settings.php:986
+msgid "Check this box if you have shown support"
+msgstr "如果您已打賞支持，請勾選此框。"
+
+#: library/plugin-settings.php:995
+msgid "Overview"
+msgstr "總覽"
+
+#: library/plugin-settings.php:999
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "使你的網站訪客能透過前台投稿文章與上傳圖片。"
+
+#: library/plugin-settings.php:1000
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "如需進階功能和無限制表單，請點選"
+
+#: library/plugin-settings.php:1000 library/plugin-settings.php:1402
+msgid "USP Pro"
+msgstr "USP 專業版"
+
+#: library/plugin-settings.php:1001
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "&mdash; 使用者生成内容的終級解决方案。"
+
+#: library/plugin-settings.php:1005 library/plugin-settings.php:1022
+msgid "Plugin Settings"
+msgstr "外掛設定"
+
+#: library/plugin-settings.php:1006
+msgid "Display the form"
+msgstr "顯示表單"
+
+#: library/plugin-settings.php:1010
+msgid "If you like this plugin, please"
+msgstr "如果您喜歡這個外掛，請"
+
+#: library/plugin-settings.php:1011
+msgid "THANK YOU for your support!"
+msgstr "感謝您的支持！"
+
+#: library/plugin-settings.php:1011
+msgid "give it a 5-star rating"
+msgstr "給它個五顆星！"
+
+#: library/plugin-settings.php:1015
+msgid "Unlimited front-end forms"
+msgstr "無限制的前台表單"
+
+#: library/plugin-settings.php:1015
+msgid "Get USP Pro"
+msgstr "獲取 USP 專業版"
+
+#: library/plugin-settings.php:1025
+msgid "Configure your settings for User Submitted Posts."
+msgstr "設置使用者投稿的文章設定"
+
+#: library/plugin-settings.php:1027
+msgid "Form Fields"
+msgstr "表單欄位"
+
+#: library/plugin-settings.php:1033
+msgid "User Name"
+msgstr "使用者網名"
+
+#: library/plugin-settings.php:1034
+msgid "User Email"
+msgstr "使用者信箱"
+
+#: library/plugin-settings.php:1035
+msgid "User URL"
+msgstr "使用者網站"
+
+#: library/plugin-settings.php:1050
+msgid "General Settings"
+msgstr "一般設定"
+
+#: library/plugin-settings.php:1052
+msgid "Note that the default settings work fine for most cases."
+msgstr "請注意，預設設定適用於大部分狀況。"
+
+#: library/plugin-settings.php:1057
+msgid "Form Style"
+msgstr "表單樣式"
+
+#: library/plugin-settings.php:1062
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "使用此選项，您可以複製外掛&rsquo;到預設佈景主題："
+
+#: library/plugin-settings.php:1067
+msgid "..and upload them into a directory named"
+msgstr "..並將它們上傳到目錄"
+
+#: library/plugin-settings.php:1067
+msgid "in your theme:"
+msgstr "在你的主題："
+
+#: library/plugin-settings.php:1073
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "這將使您能依據需求自定表單和樣式。相關詳细資訊，請查看「自定投稿表單\b」"
+
+#: library/plugin-settings.php:1074
+msgid "Installation Docs"
+msgstr "安装文件"
+
+#: library/plugin-settings.php:1075
+msgid "FYI: here is a"
+msgstr "僅供参考：這是一個"
+
+#: library/plugin-settings.php:1075
+msgid "list of USP CSS selectors"
+msgstr "USP CSS 選擇器列表"
+
+#: library/plugin-settings.php:1081
+msgid "Include JavaScript"
+msgstr "包括 JavaScript"
+
+#: library/plugin-settings.php:1083
+msgid "Check this box if you want to include the external JavaScript files (recommended)."
+msgstr "如果要包含外部 JavaScript 檔案，請勾選此框（推薦）。"
+
+#: library/plugin-settings.php:1086
+msgid "Targeted Loading"
+msgstr "有目標性的加載"
+
+#: library/plugin-settings.php:1088
+msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
+msgstr "預設情况下，外部 CSS &amp; 每个頁面都會加載 JavaScript 檔案。您可以在此處指定 USP 表單的網址，以僅在該頁面上加載資源。注意：留空將在所有頁面上加載 JavaScript。"
+
+#: library/plugin-settings.php:1091
+msgid "Post Type"
+msgstr "投稿類型"
+
+#: library/plugin-settings.php:1094
+msgid "Submit posts as WP Posts or Pages"
+msgstr "以 WP 文章或頁面的形式提交"
+
+#: library/plugin-settings.php:1098
+msgid "Post Status"
+msgstr "發佈狀態"
+
+#: library/plugin-settings.php:1101
+msgid "Post Status for submitted posts"
+msgstr "已投稿文章的發佈狀況"
+
+#: library/plugin-settings.php:1105
+msgid "Redirect URL"
+msgstr "重新定向網址"
+
+#: library/plugin-settings.php:1107
+msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
+msgstr "指定投稿後重新導向的網址。留空將重新導向回當前頁面。"
+
+#: library/plugin-settings.php:1110
+msgid "Success Message"
+msgstr "成功訊息"
+
+#: library/plugin-settings.php:1112
+msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
+msgstr "如果投稿後成功，則顯示成功訊息。允許基本 HTML 標记。"
+
+#: library/plugin-settings.php:1115
+msgid "Error Message"
+msgstr "錯誤訊息"
+
+#: library/plugin-settings.php:1117
+msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
+msgstr "如果投稿後失败，則會顯示一般錯誤訊息。允許基本 HTML 標记。"
+
+#: library/plugin-settings.php:1120
+msgid "Custom Content"
+msgstr "自定内容"
+
+#: library/plugin-settings.php:1122
+msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
+msgstr "在投稿表單之前包含的自定純文字/標記。留空則不使用。"
+
+#: library/plugin-settings.php:1125
+msgid "Rich Text Editor"
+msgstr "進階編輯器"
+
+#: library/plugin-settings.php:1127
+msgid "Check this box if you want to enable WP rich text editing for submitted posts."
+msgstr "如果要為投稿介面啟用 WP 進階編輯器，請勾選此框。"
+
+#: library/plugin-settings.php:1130
+msgid "Unique Titles"
+msgstr "唯一的標題"
+
+#: library/plugin-settings.php:1132
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
+msgstr "要求投稿標題是不重覆的（有助於防止一稿多投或投稿重覆）。"
+
+#: library/plugin-settings.php:1135
+msgid "Disable Required"
+msgstr "不使用必填"
+
+#: library/plugin-settings.php:1137
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
+msgstr "將所有必填欄位屬性取消（用於排除錯誤訊息）。"
+
+#: library/plugin-settings.php:1140
+msgid "Enable Shortcodes"
+msgstr "啟用短碼"
+
+#: library/plugin-settings.php:1142
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "在小工具中啟用短碼。預設 WordPress 不會在小工具中啟用短碼。"
+
+#: library/plugin-settings.php:1143
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "這是啟用小工具中任何/所有短碼（甚至是其他外掛的短码）。"
+
+#: library/plugin-settings.php:1148
+msgid "GDPR"
+msgstr "GDPR"
+
+#: library/plugin-settings.php:1153
+msgid "Disable IP Tracking"
+msgstr "不使用IP跟蹤"
+
+#: library/plugin-settings.php:1155
+msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
+msgstr "預設 USP會紀錄每個投稿者的 IP 地址。勾選此框不使用追蹤所有 IP。"
+
+#: library/plugin-settings.php:1159
+msgid "Display Checkbox"
+msgstr "顯示複選框"
+
+#: library/plugin-settings.php:1161
+msgid "Display custom checkbox on your form (useful for GDPR, agree to terms, etc.)"
+msgstr "在表單上顯示自定確認框（因應 GDPR 很好用，如同意條款等）"
+
+#: library/plugin-settings.php:1164
+msgid "Checkbox Name"
+msgstr "確認框名稱"
+
+#: library/plugin-settings.php:1166 library/plugin-settings.php:1251
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "只能使用字母、數字、下底線_與短橫線-。如果不確定要用啥，請使用預設名稱："
+
+#: library/plugin-settings.php:1169
+msgid "Checkbox Error"
+msgstr "確認框錯誤"
+
+#: library/plugin-settings.php:1171
+msgid "Error message displayed if user does not check the box."
+msgstr "如果使用者未勾選此框，則顯示錯誤訊息。"
+
+#: library/plugin-settings.php:1174
+msgid "Checkbox Text"
+msgstr "勾選框文字內容"
+
+#: library/plugin-settings.php:1176
+msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
+msgstr "在勾選框旁邊顯示文字。提示：使用大括號{}來輸出大小於號<>，例如："
+
+#: library/plugin-settings.php:1181 library/plugin-settings.php:1186
+msgid "Categories"
+msgstr "分類"
+
+#: library/plugin-settings.php:1189
+msgid "Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr "選擇投稿文章分類（點擊切換）"
+
+#: library/plugin-settings.php:1197
+msgid "Hidden/Default Category"
+msgstr "隱藏/預設分類"
+
+#: library/plugin-settings.php:1199
+msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
+msgstr "對文章分類使用隱藏欄位。這可用於在不使用分類欄位時指定為預設分類。"
+
+#: library/plugin-settings.php:1202
+msgid "Category ID for Hidden Field"
+msgstr "隱藏欄位分類的 ID"
+
+#: library/plugin-settings.php:1204
+msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
+msgstr "指定 ID 來「隱藏/預設」分類&rdquo;選項。"
+
+#: library/plugin-settings.php:1209
+msgid "Users"
+msgstr "使用者"
+
+#: library/plugin-settings.php:1214
+msgid "Assigned Author"
+msgstr "分配作者"
+
+#: library/plugin-settings.php:1217
+msgid "Specify the user that should be assigned as author for submitted posts."
+msgstr "指定帳戶為投稿文章的作者。"
+
+#: library/plugin-settings.php:1221
+msgid "Registered Username"
+msgstr "已註冊的使用者名稱。"
+
+#: library/plugin-settings.php:1223
+msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
+msgstr "使用註冊帳戶名稱作為文章作者。僅投稿者已登入到 WordPress 時有效。"
+
+#: library/plugin-settings.php:1226
+msgid "User Profile URL"
+msgstr "使用者個人資料網址"
+
+#: library/plugin-settings.php:1228
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
+msgstr "使用註冊使用者&rsquo;個人資料中的網址來填入網址欄位。僅在投稿者已登入 WordPress 時有效。"
+
+#: library/plugin-settings.php:1231
+msgid "Require User Login"
+msgstr "使用者必須登入"
+
+#: library/plugin-settings.php:1233
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "要求使用者登入 WordPress 以查看/投稿表單"
+
+#: library/plugin-settings.php:1236
+msgid "Disable Replace Author"
+msgstr "不使用更換作者"
+
+#: library/plugin-settings.php:1238
+msgid "Do not replace post author with submitted user name"
+msgstr "不使用投稿的使用者名更換文章作者"
+
+#: library/plugin-settings.php:1244
+msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
+msgstr "您可以在此更改自定欄位使用的名稱與標籤。您可以透過上面的表單欄位設定啟用此欄位。"
+
+#: library/plugin-settings.php:1249
+msgid "Custom Field Name"
+msgstr "自定欄位名稱"
+
+#: library/plugin-settings.php:1254
+msgid "Custom Field Label"
+msgstr "自定欄位標籤"
+
+#: library/plugin-settings.php:1256
+msgid "This will be displayed as the field label on the form. Default: Custom Field"
+msgstr "這將顯示表單的自定欄位標籤。預設值：自定欄位"
+
+#: library/plugin-settings.php:1268
+msgid "To prevent spam, enter a question that users must answer before submitting the form."
+msgstr "為了防止垃圾郵件，請在投稿前輸入使用者必須回答的問題。"
+
+#: library/plugin-settings.php:1271
+msgid "Challenge Response"
+msgstr "解答"
+
+#: library/plugin-settings.php:1273
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "輸入挑戰題的「唯一解答」。"
+
+#: library/plugin-settings.php:1276
+msgid "Case-sensitivity"
+msgstr "區分大小寫"
+
+#: library/plugin-settings.php:1278
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "若希望解答區分大小寫，請勾選此框。"
+
+#: library/plugin-settings.php:1284
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "若要啟用 Google reCAPTCHA，請輸入您的公鑰與私鑰。"
+
+#: library/plugin-settings.php:1289
+msgid "Public Key"
+msgstr "公鑰"
+
+#: library/plugin-settings.php:1291
+msgid "Enter your Public Key"
+msgstr "輸入您的公鑰"
+
+#: library/plugin-settings.php:1294
+msgid "Private Key"
+msgstr "私鑰"
+
+#: library/plugin-settings.php:1296
+msgid "Enter your Private Key"
+msgstr "輸入您的私鑰"
+
+#: library/plugin-settings.php:1301
+msgid "Email Alerts"
+msgstr "電子郵件提醒"
+
+#: library/plugin-settings.php:1306
+msgid "Receive Email Alert"
+msgstr "接收電子郵件提醒"
+
+#: library/plugin-settings.php:1308
+msgid "Check this box if you want to be notified via email for new post submissions."
+msgstr "如果您希望透過電子郵件通知新文章投稿，請勾選此框。"
+
+#: library/plugin-settings.php:1311
+msgid "Enable HTML Format"
+msgstr "啟用 HTML 格式"
+
+#: library/plugin-settings.php:1313
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "勾選此櫃以啟用電子郵件提醒的 HTML 格式。"
+
+#: library/plugin-settings.php:1316
+msgid "Email Address for Alerts"
+msgstr "要寄提醒的電子郵件地址"
+
+#: library/plugin-settings.php:1318
+msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
+msgstr "若勾選此框將會收到電子郵件提醒，請在此處填入電子郵件地址。"
+
+#: library/plugin-settings.php:1319
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "可以使用逗號包含多位收件人，如下所示："
+
+#: library/plugin-settings.php:1322
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "&ldquo;寄信人&ldquo;電子郵件地址"
+
+#: library/plugin-settings.php:1324
+msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
+msgstr "在這您可自定&ldquo;寄信人&ldquo;地址標題（請參考外掛常見問題解答）。"
+
+#: library/plugin-settings.php:1325
+msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
+msgstr "如果在之前的設定中指定了多個地址， &ldquo;寄信人&rdquo;請包含相同数量設定的地址（按相同順序）。"
+
+#: library/plugin-settings.php:1328
+msgid "Email Alert Subject"
+msgstr "電子郵件提醒主旨"
+
+#: library/plugin-settings.php:1330
+msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
+msgstr "電子郵件提醒的主旨。留空則使用預設主旨。注意：您可以使用以下參數："
+
+#: library/plugin-settings.php:1335
+msgid "Email Alert Message"
+msgstr "電子郵件提醒訊息"
+
+#: library/plugin-settings.php:1337
+msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
+msgstr "電子郵件提醒的訊息。留空則使用預設訊息。注意：您可以使用以下參數："
+
+#: library/plugin-settings.php:1349
+msgid "Featured Image"
+msgstr "特色圖片"
+
+#: library/plugin-settings.php:1351
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
+msgstr "將投稿的圖片設定為特色圖片。需要有支援特色圖片版型（或文章縮圖）。"
+
+#: library/plugin-settings.php:1354
+msgid "Upload Message"
+msgstr "上傳訊息"
+
+#: library/plugin-settings.php:1356
+msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
+msgstr "在上傳欄位旁顯示的訊息。用來說明您的投稿規範等。允许基本標記。"
+
+#: library/plugin-settings.php:1359
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "&ldquo;新增另一張圖片&ldquo;鏈結"
+
+#: library/plugin-settings.php:1361
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "“新增其他圖片”的自定標記&rdquo;鏈接。留空以使用預設標記（推薦）。"
+
+#: library/plugin-settings.php:1364
+msgid "Minimum number of images"
+msgstr "未達圖片張數下限"
+
+#: library/plugin-settings.php:1367
+msgid "Specify the minimum number of images."
+msgstr "指定最小圖片張數。"
+
+#: library/plugin-settings.php:1371
+msgid "Maximum number of images"
+msgstr "超過最大圖片張數上限"
+
+#: library/plugin-settings.php:1374
+msgid "Specify the maximum number of images."
+msgstr "指定最大圖片張數。"
+
+#: library/plugin-settings.php:1378
+msgid "Minimum image width"
+msgstr "未達到最小圖片寬度"
+
+#: library/plugin-settings.php:1380
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "指定上傳圖片的最大寬度（以像素为單位）。"
+
+#: library/plugin-settings.php:1383
+msgid "Minimum image height"
+msgstr "未達最小圖片高度"
+
+#: library/plugin-settings.php:1385
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "指定上傳圖片的最小高度（以像素为單位）。"
+
+#: library/plugin-settings.php:1388
+msgid "Maximum image width"
+msgstr "最大圖片寬度"
+
+#: library/plugin-settings.php:1390
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "指定上傳圖片的最大寬度（以像素为單位）。"
+
+#: library/plugin-settings.php:1393
+msgid "Maximum image height"
+msgstr "最大圖片高度"
+
+#: library/plugin-settings.php:1395
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "指定上傳圖片的最大高度（以像素为單位）。"
+
+#: library/plugin-settings.php:1398
+msgid "More Options"
+msgstr "更多的功能"
+
+#: library/plugin-settings.php:1401
+msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "會有更多選項，例如上傳其他檔案類型（如PDF，Word，Zip，影片等）的功能，請查看"
+
+#: library/plugin-settings.php:1402
+msgid "Go Pro!"
+msgstr "昇級專業版！"
+
+#: library/plugin-settings.php:1409
+msgid "Auto-Display Content"
+msgstr "自動顯示內容"
+
+#: library/plugin-settings.php:1414
+msgid "Auto-Display Images"
+msgstr "自動顯示圖片"
+
+#: library/plugin-settings.php:1416
+msgid "Auto-display user-submitted images:"
+msgstr "自動顯示使用者投稿的圖片："
+
+#: library/plugin-settings.php:1421
+msgid "Image Markup"
+msgstr "圖片標記"
+
+#: library/plugin-settings.php:1423
+msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
+msgstr "用於每個投稿圖片的標記（啟用自動顯示時）。可以使用"
+
+#: library/plugin-settings.php:1425 library/plugin-settings.php:1438
+#: library/plugin-settings.php:1451 library/plugin-settings.php:1464
+msgid "and"
+msgstr "和"
+
+#: library/plugin-settings.php:1428
+msgid "Auto-Display Email"
+msgstr "自動顯示電子郵件"
+
+#: library/plugin-settings.php:1430
+msgid "Auto-display user-submitted email:"
+msgstr "自動顯示使用者投稿的電子郵件："
+
+#: library/plugin-settings.php:1435
+msgid "Email Markup"
+msgstr "電子郵件標記"
+
+#: library/plugin-settings.php:1437
+msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
+msgstr "用於投稿電子郵件地址的標記（啟用自動顯示時）。可以使用"
+
+#: library/plugin-settings.php:1441
+msgid "Auto-Display URL"
+msgstr "自動顯示網址"
+
+#: library/plugin-settings.php:1443
+msgid "Auto-display user-submitted URL:"
+msgstr "自动顯示使用者投稿的網址："
+
+#: library/plugin-settings.php:1448
+msgid "URL Markup"
+msgstr "網址標記"
+
+#: library/plugin-settings.php:1450
+msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr "用於投稿網址的標記（啟用自動顯示時）。可以使用"
+
+#: library/plugin-settings.php:1454
+msgid "Auto-Display Custom Field"
+msgstr "自動顯示自定欄位"
+
+#: library/plugin-settings.php:1456
+msgid "Auto-display user-submitted Custom Field:"
+msgstr "自動顯示使用者投稿的自定欄位："
+
+#: library/plugin-settings.php:1461
+msgid "Custom Field Markup"
+msgstr "自定欄位標記"
+
+#: library/plugin-settings.php:1463
+msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
+msgstr "用於投稿自定欄位的標記（啟用自動顯示時）。可以使用"
+
+#: library/plugin-settings.php:1469 library/plugin-settings.php:1581
+msgid "Save Settings"
+msgstr "保存設定"
+
+#: library/plugin-settings.php:1474
+msgid "Display the Form"
+msgstr "顯示表單"
+
+#: library/plugin-settings.php:1477
+msgid "Post-Submit Form"
+msgstr "投稿表單"
+
+#: library/plugin-settings.php:1478
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "USP 可使您可以在網站的任意位置顯示投稿表單。"
+
+#: library/plugin-settings.php:1479 library/plugin-settings.php:1488
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "使用短碼在任何 WP 文章或頁面上顯示表單："
+
+#: library/plugin-settings.php:1482 library/plugin-settings.php:1491
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "或者，使用版型標記在任意位置來顯示表單"
+
+#: library/plugin-settings.php:1486
+msgid "Login/Register Form"
+msgstr "登入/註冊表單"
+
+#: library/plugin-settings.php:1487
+msgid "You also can display a form that enables users to log in, register, or reset their password."
+msgstr "您還可以顯示一個表單，讓使用者可以登入、註冊或重設密碼。"
+
+#: library/plugin-settings.php:1495
+msgid "Display Submitted Posts"
+msgstr "顯示已投稿的文章"
+
+#: library/plugin-settings.php:1496
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "使用此短碼顯示任何 WP 文章或頁面上投稿的文章列表："
+
+#: library/plugin-settings.php:1499
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "或者，使用版型標記在任意位置來投稿文章列表"
+
+#: library/plugin-settings.php:1502
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "以下是一些示例，说明如何配置此短代码："
+
+#: library/plugin-settings.php:1510
+msgid "Display Image Gallery"
+msgstr "显示图库"
+
+#: library/plugin-settings.php:1511
+msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
+msgstr "使用此短代码显示每个提交的帖子的上传图像库："
+
+#: library/plugin-settings.php:1514
+msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
+msgstr "或者，使用版型標記在任意位置來顯示圖集"
+
+#: library/plugin-settings.php:1517
+msgid "You can customize using any of the follwing attributes:"
+msgstr "您可以使用以下任何屬性來自訂："
+
+#: library/plugin-settings.php:1532
+msgid "Reset Form Button"
+msgstr "重置表單按钮"
+
+#: library/plugin-settings.php:1533
+msgid "This shortcode displays a link that resets the form to its original state:"
+msgstr "此短碼顯示一個鏈結，將表單重置为其初始狀態："
+
+#: library/plugin-settings.php:1536
+msgid "This shortcode accepts the following attributes:"
+msgstr "此短碼接受以下屬性："
+
+#: library/plugin-settings.php:1542
+msgid "Note that the url attribute accepts"
+msgstr "請注意，接受網址屬性"
+
+#: library/plugin-settings.php:1542
+msgid "to get the current URL."
+msgstr "獲取當下的網址。"
+
+#: library/plugin-settings.php:1545
+msgid "Access Control"
+msgstr "存取控制"
+
+#: library/plugin-settings.php:1546
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "USP 提供三個短碼来控制訪問和限制内容。"
+
+#: library/plugin-settings.php:1547
+msgid "Display content only to users with a specific capability:"
+msgstr "只向具有特定權限的使用者顯示内容："
+
+#: library/plugin-settings.php:1550
+msgid "Display content to logged-in users:"
+msgstr "向登入使用者顯示内容："
+
+#: library/plugin-settings.php:1553
+msgid "Display content to visitors only:"
+msgstr "只向訪客顯示内容："
+
+#: library/plugin-settings.php:1556
+msgid "Tip:"
+msgstr "提示："
+
+#: library/plugin-settings.php:1556
+msgid "to include markup in the deny message, you can use"
+msgstr "要在拒絕訊息中包含標記，您可以使用"
+
+#: library/plugin-settings.php:1556
+msgid "to output"
+msgstr "輸出"
+
+#: library/plugin-settings.php:1559
+msgid "Example"
+msgstr "例"
+
+#: library/plugin-settings.php:1560
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "如果使用者已登入，則顯示投稿表單，若使用者未登入，則顯示登入表單："
+
+#: library/plugin-settings.php:1572
+msgid "Restore Defaults"
+msgstr "恢復預設值"
+
+#: library/plugin-settings.php:1575
+msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "不使用此選項可記住您的設定值。或是去恢復外掛預設值：勾選此框，保存設定，並停用/重新啟用外掛。"
+
+#: library/plugin-settings.php:1579
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr "外掛取消啟用/重新啟用時恢復預設選項。"
+
+#: library/plugin-settings.php:1586
+msgid "Show Support"
+msgstr "顯示支持"
+
+#: library/plugin-settings.php:1595
+msgid "by"
+msgstr "透過"
+
+#: library/plugin-settings.php:1596
+msgid "Jeff Starr on Twitter"
+msgstr "傑夫史塔爾的推特"
+
+#: library/plugin-settings.php:1597
+msgid "Obsessive Web Design &amp; Development"
+msgstr "痴迷網頁設計&amp;研發"
+
+#: library/plugin-settings.php:1608
+msgid "Save Preference"
+msgstr "保存偏好設定"
+
+#: library/plugin-settings.php:1615
+msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
+msgstr "您確定要恢復所有預設選項嗎？（此操作無法復原）"
+
+#. Description of the plugin
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "允許訪客從網站的任意位置投稿文章與圖片。"
+
+#. URI of the plugin
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "傑夫史塔爾"
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"

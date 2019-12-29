@@ -1,0 +1,243 @@
+.items-border > li {
+	border-bottom: 1px solid #E7EAEE;
+}
+
+
+// Fix JSN ImageShow Theme Masonry.
+@media (max-width: $screen-xs-max) {
+	[id*='jsn-thememasonry-container'] .jsn-is-msnry-grid {
+		width: 100% !important; 
+	}
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.jsn-is-msnry-grid {
+		margin: 0 auto;
+	}
+}
+
+span[class*="icon-"] {
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+}
+.icon-user:before {
+	content: "\f007";
+}
+.icon-file:before {
+	content: "\f15b";
+}
+.icon-edit:before{
+	content:'\f044';
+}
+.icon-remove:before {
+	content: "\f00d";
+}
+.btn.jmodedit{
+	padding: 10px;
+	border: 1px solid;
+	background: #fff;
+}
+.search.show-icon-search {
+	> form {
+		display: flex;
+		border: 1px solid #cfd1d2;
+		background: transparent;
+		height: 46px;
+		font-size: 13px;
+		border-radius: 8px;
+		input#mod-search-searchword {
+			border: none;
+			background: transparent;
+		}
+		button.button {
+			font-size: 0;
+			background: transparent;
+			padding: 0;
+			border: none;
+			&:hover, &:focus, &:active {
+				background: transparent;
+			}
+			&:before {
+				display: inline-block;
+				font: normal normal normal 14px/1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+			}
+			&:before { 
+				content: "\f002";
+				color: #a0a4ad;
+				font-size: 14px;
+			}
+		}
+	}
+}
+.jsn-uniform.jsn-master .jsn-row-container {
+	.radio,
+	.checkbox {
+		margin-left: 0;
+	}
+	input[type="range"].jsn-uf-slider + input[type="number"].jsn-uf-slider-value {
+		padding: 0;
+	}
+	.input-append .ui-datepicker-trigger.btn-icon {
+		height: 46px;
+	}
+	select {
+		margin-bottom: 9px;
+		height: 46px;
+	}
+}
+/*===============Edit module front=============*/
+.sunfw-com-config {
+	#modules-form{
+		textarea,
+		select:not(.time),
+		input[type="text"],
+		a.chzn-single,
+		.chzn-container{
+			min-width: 300px;
+
+		}
+		.btn-toolbar{
+			button.btn:not(.btn-primary){
+				border: 1px solid rgb(209, 214, 222);
+			}
+		}
+		#options{
+			.input-append{
+				.btn{
+					padding: 14px 15px;
+					border: 1px solid #D1D6DE;
+					margin-top: -2px;
+					display: inline-block;
+					position: relative;
+				}
+			}
+		}
+		.accordion-heading{
+			font-size: 19px;
+			padding: 15px 0px 20px;
+			border-bottom: 1px solid #eeeeee;
+			strong{
+				font-weight: normal;
+			}
+		}
+		.chzn-container-single .chzn-single abbr{
+			top: 15px;
+			background: #fff;
+			font-size: 24px;
+			&:before{
+				font-family: FontAwesome;
+				content: '\f2d3';
+				width: 20px;
+				height: 33px;
+				display: block;
+				color: #333;
+				position: absolute;
+				top: -15px;
+				right: 5px;
+			}
+		}
+
+		.field-calendar{
+			button.btn{
+				padding: 5px 17px;
+				border: 1px solid #757b80;
+			}
+		}
+		.chzn-search input{
+			width: 100%;
+			min-width: auto;
+		}
+		.form-horizontal .control-label{
+			text-align: left;
+		}
+		.radio{
+			label{
+				@include rtl-padding-left(0px);
+				@include rtl-margin-right(40px);
+
+			}
+			input[type="radio"]{
+				position: inherit;
+				@include rtl-margin-left(0);
+				@include rtl-margin-right(5px);
+			}
+		} 
+		hr{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		fieldset.form-horizontal{
+			.control-group{
+				display: flex;
+				margin: 10px 0px;
+			}
+			.control-label{
+				min-width: 200px;
+				label{
+					font-weight: normal;
+				}
+			}
+		}
+		.field-calendar{
+			> .input-append {
+				position: relative;
+				button.btn{
+					position: absolute;
+					top: 1px;
+					@include rtl-right(1px);
+					padding: 9px;
+					border-radius: 0;
+					border: none;
+					background: transparent;
+				}
+			}
+		}
+		@media(max-width: 767px){
+			button.btn-primary{
+				padding-left: 15px;
+				padding-right: 15px;
+				margin-top: 15px;
+			}
+			textarea,
+			select,
+			input[type="text"],
+			a.chzn-single{
+				min-width: auto;
+				width: 100%;
+			}
+			fieldset.form-horizontal{
+				.control-group{
+					flex-direction: column;
+				}
+			}
+		}
+		#custom{
+			.js-editor-tinymce{
+				.mce-edit-area{
+					border-width: 1px 1px 0 0!important;
+				}
+			}
+		}
+	}
+}
+.sunfw-direction-rtl {
+	ol,ul{
+		&.nav{
+			padding-right: 0;
+		}
+
+}
+.list-inline{
+			padding-right: 0;
+		}
+.direct-ltr *{
+	direction: ltr !important;
+}
+}
+.link:hover{
+	color: #757B80;
+	}

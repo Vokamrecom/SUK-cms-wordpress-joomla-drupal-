@@ -1,0 +1,12 @@
+.contact-form {
+    width: 30%;
+    background-color: lightgreen;
+}
+
+.contact-form > input {
+    margin: 10px;
+}
+
+#form {
+    display: none;
+}

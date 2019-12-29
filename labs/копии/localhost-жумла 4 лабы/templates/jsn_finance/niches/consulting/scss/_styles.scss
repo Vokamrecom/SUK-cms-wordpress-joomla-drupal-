@@ -1,0 +1,117 @@
+div[class*='sunfw-pos-bottom-'] {
+	.module-title .box-title {
+		color: #fff;
+	}
+	ul.menu li {
+		a,span.nav-header {
+			color: rgba(255,255,255,0.8);
+		}
+	}
+}
+.custom-search {
+	>form{
+		margin: 0px 10px;
+		position: relative;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	label {
+		font-family: FontAwesome;
+		text-rendering: auto;
+		text-align: center;
+		padding: 6.5px 0;
+		cursor: pointer;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 22px;
+		@include rtl-margin-right(40px);
+		height: auto;
+		overflow: visible;
+		font-size: 0;
+		position: static;
+		&:before {
+			content: "\f002";
+			font-size: 16px;
+			display: inline-block;
+			color: #fff;
+		}
+	}
+	.inputbox#mod-search-searchword {
+		@include rtl-float-right();
+		background: #fff;
+		padding: 0;
+		font-size: 13px;
+		width: 0px;
+		visibility: hidden;
+		-webkit-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		height: 40px;
+		margin: 0 10px;
+		border: none;
+		&.active{
+			width: 200px;
+			padding: 0 12px;
+			visibility: visible;
+			transition: all 0.3s ease-in-out;
+			
+		} 
+	}
+	button.button{
+		position: absolute;
+		top: 1px;
+		right: 23px;
+		padding: 6.5px 9px;
+		visibility: hidden;
+	}
+	&.active{
+		button.button{
+			visibility: visible;
+		}
+	}
+}
+.blog-featured .article-info[class*="mut"], .blog .article-info[class*="mut"] {
+    margin-bottom: 16px;
+}
+.sunfw-view-category .blog .items-leading div.blog-featured-items .item-image img, .sunfw-view-category .blog .items-row div.blog-featured-items .item-image img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.blog-featured .items-row div.blog-featured-items, .blog .items-row div.blog-featured-items {
+    padding-bottom: 70px;
+}
+.blog-featured .items-row div.blog-featured-items dd.published, .blog .items-row div.blog-featured-items dd.published {
+	bottom: 18px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+	i {
+		font-size: 14px;
+	}
+}
+div.pagination {
+	margin-top: 35px;
+	justify-content: center;
+	ul.pagination li {
+		a {
+			color: rgba(105, 110, 123,0.8);
+			border: none;
+			background-image: none;
+			font-size: 14px;
+			font-weight: bold;
+			&:hover {
+				background: none;
+			}
+		}
+		&.active a {
+			background: none;
+		}
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+nav.navbar.sunfw-menu-head ul.navbar-nav > li > span.nav-header:not(.get-it), nav.navbar.sunfw-menu-head ul.navbar-nav > li > a:not(.get-it) {
+    padding: 20px 12px;
+}
+}

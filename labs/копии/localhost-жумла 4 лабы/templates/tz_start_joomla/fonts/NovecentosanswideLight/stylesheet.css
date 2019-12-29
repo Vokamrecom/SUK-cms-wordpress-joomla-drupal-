@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'NovecentosanswideLight';
+    src: url('synthview_-_novecento_sans_wide_light-webfont.eot');
+    src: url('synthview_-_novecento_sans_wide_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('synthview_-_novecento_sans_wide_light-webfont.woff') format('woff'),
+    url('synthview_-_novecento_sans_wide_light-webfont.ttf') format('truetype'),
+    url('synthview_-_novecento_sans_wide_light-webfont.svg#novecento_sans_widelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

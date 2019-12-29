@@ -1,0 +1,1823 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+
+    <title>TZ Start Template - Documentation 1.0</title>
+
+    <meta name="description" content="Thank you for use my theme. If you have any questions that are beyond the scope of this help file, please feel free to post it on out forum here. Thanks so much!
+
+This documentation was made only with the Documenter (except the images)">
+    <meta name="author" content="TemPlaza"/>
+    <meta name="copyright" content="TemPlaza"/>
+    <meta name="generator" content="intro page v1.0"/>
+    <meta name="date" content="2014-07-10T00:00:00+01:00"/>
+
+    <link rel="stylesheet" href="css/bootstrap.css" media="all"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen"/>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="screen"/>
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" media="screen"/>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+             *  Scroll To Menu - Landing Page.
+             */
+            $('#menu-main li a').click(function () {
+                $('#menu-main li a').removeClass('active');
+                $(this).addClass('active');
+                var elementClicked = $(this).attr("href");
+                var destination = $(elementClicked).offset().top;
+                $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination - 27}, 800);
+                return false;
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div id="header" class="navbar-header">
+    <div class="container-fluid">
+        <div class="row" style="margin: auto;">
+            <div class="span2 logo">
+                <h1>TemPlaza</h1>
+            </div>
+            <div class="span10">
+                <ul id="menu-main" class="nav navbar-nav">
+                    <li class="level_0"><a href="#General-Info">General Info</a>
+                    </li>
+
+                    <li class="level_0"><a href="#Installation">Installation</a>
+                        <ul class="children">
+                            <li class="level_1"><a href="#Installation-1">Quickstart installation</a></li>
+                            <li class="level_1"><a href="#Installation-2">Manual Installation</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="level_0"><a href="#Menu-3-1">Configure Template</a>
+                        <ul class="children">
+                            <li class="level_1"><a href="#Menu-3-1">Layout</a>
+
+                                <div class="chil">
+                                    <ul class="children_1">
+                                        <div class="total_1">
+                                            <li class="level_2"><a href="#Menu-3-1-1">Default</a></li>
+                                            <li class="level_2"><a href="#Menu-3-1-2">Home</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="level_1"><a href="#Menu-3-2">Font</a></li>
+                            <li class="level_1"><a href="#Menu-3-3">Theme</a></li>
+                            <li class="level_1"><a href="#Menu-3-4">Advanced Setting</a></li>
+                            <li class="level_1"><a href="#Menu-3-5">Navigation</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="level_0"><a href="#Menu-4">Module</a>
+                        <ul class="children ">
+                            <li class="level_1">
+                                <a href="#Menu-4-1">Home</a>
+
+                                <div class="chil">
+                                    <ul class="children_1">
+                                        <div class="total">
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                    <li class="level_2"><a href="#Menu-4-1-1">1. Module TZ Mutil
+                                                        Slideshow</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-2">2. Fullslide - Text</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-3">3. Logo</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-4">4. Mega Menu</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-5">5. About Head</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-6">6. About</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-7">7. About - Download</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-8">8. Offer</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-9">9. Team - Head</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-10">10. Team</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-11">11. Feature Slide</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-12">12. Milestones - Head</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-13">13. Milestones</a></li>
+                                                </div>
+                                                <div class="span6">
+                                                    <li class="level_2"><a href="#Menu-4-1-14">14. Purchase - Body</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-15">15. Purchase - Footer</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-16">16. Mass-top</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-17">17. Component </a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-18">18. Blog - Head</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-19">19. Recent Blog</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-1-20">20. Contact - Head</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-21">21. Contact - Body</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-22">22. Contact - Logo</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-23">23. To Top</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-24">24. Footer - Left</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-25">25. Footer - Right</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-1-26">26. Copy Right</a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="level_1">
+                                <a href="#Menu-4-2">Default</a>
+
+                                <div class="chil">
+                                    <ul class="children_1">
+                                        <div class="total">
+                                            <div class="row-fluid">
+                                                <div class="span4">
+                                                    <li class="level_2"><a href="#Menu-4-2-1">1. Blog Single </a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-2-2">2. Search - Blog </a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-2-3">3. Menu Categories </a>
+                                                    </li>
+                                                </div>
+                                                <div class="span4">
+                                                    <li class="level_2"><a href="#Menu-4-2-4">4. Flickr Photos</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-2-5">5. Text Widget</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-2-6">6. Archives</a></li>
+                                                </div>
+                                                <div class="span4">
+                                                    <li class="level_2"><a href="#Menu-4-2-7">7. Recent Post</a>
+                                                    </li>
+                                                    <li class="level_2"><a href="#Menu-4-2-8">8. Tag</a></li>
+                                                    <li class="level_2"><a href="#Menu-4-2-9">9. To Top - Default</a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level_0"><a href="#Menu-5">Basic Thing</a></li>
+                    <li class="level_0"><a href="#Menu-6">Com TZ Portfolio</a></li>
+                    <li class="level_0"><a href="#Menu-7">Group field and field (multipurpose)</a>
+                        <ul class="children">
+                            <li class="level_1"><a href="#Menu-7-1">Group Field</a></li>
+                            <li class="level_1"><a href="#Menu-7-2">Field</a>
+
+                                <div class="chil">
+                                    <ul class="children_1">
+                                        <div class="total">
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                    <li class="level_2"><a href="#Menu-7-2-1">1. About</a></li>
+                                                    <li class="level_2"><a href="#Menu-7-2-2">2. Offer</a></li>
+                                                </div>
+                                                <div class="span6">
+                                                    <li class="level_2"><a href="#Menu-7-2-3">3. Team</a></li>
+                                                    <li class="level_2"><a href="#Menu-7-2-4">4. Feature</a></li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mainbody">
+<div class="container">
+<div class="title_head">
+    <p>Start</p>
+</div>
+
+<section id="General-Info" class="general">
+    <div class="row-fluid">
+        <div class="text span6">
+            <p>
+                Thank you for use my theme. If you have any questions that are beyond the scope of this help file,
+                please feel free to post it on out forum <a href="http://www.templaza.com/Forum/">here</a>. Thanks so
+                much!
+
+                This documentation was made only with the Documenter (except the images)
+            </p>
+
+            <p>
+                To install this theme you must have a working version of Joomla already installed.
+                If you need help installing Joomla, follow the instructions in <b>Siteground</b> or you can watch the
+                <b>instructional video</b>. Here are some useful links for Joomla information
+            </p>
+            <ul class="">
+                <li>
+                    <a href="http://www.siteground.com/tutorials/joomla/how-to-install-joomla.htm">Siteground</a>
+                    general info about Joomla and how to install on your server.
+                </li>
+                <li>
+                    <a href="http://www.youtube.com/watch?v=qbO651OdFds">Instructional Video</a> video to instruct how
+                    to install Joomla.
+                </li>
+            </ul>
+            <p>
+                If you have any questions that are beyond the scope of this documentation file, please feel free to post
+                it on our forum <a href="http://www.templaza.com/Forum"> here</a>.
+                Thanks so much! We hope you enjoy using Start.
+            </p>
+        </div>
+        <div class="img span6">
+            <img src="img/homepage.jpg" alt=""/>
+        </div>
+    </div>
+</section>
+
+<section id="Installation" class="general">
+    <header class="header-content"><h2 class="title">INSTALLATION</h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+            <p>You can install this template in two ways:</p>
+            <ul>
+                <li>When installing quickstart, you will get the demo data without paid extensions.</li>
+                <li>When installing manually, you need to install your site step by step.</li>
+                <li>If you build your site from scratch, quickstart installation will be the best choice for you.</li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="Installation-1" class="general">
+    <header class="header-content"><h2 class="title">Quickstart installation</h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+
+            <div class="alert alert-info"><p><b>NOTE:</b></p>
+                <ul>
+                    <li>You can see how to install our quickstart package on your Cpanel <a target="_blank" href="https://www.akeebabackup.com/documentation/akeeba-solo/angie-joomla-setup.html"><b>HERE</b></a>.</li>
+                    <li>After the installation, you can have a look at the tutorial of each page</a> to configure the template as you want.</li>
+                </ul>
+            </div>
+
+<section id="Installation-2" class="general">
+    <header class="header-content"><h2 class="title">Manual Installation</h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+            <p>
+                In this way, you already have Joomla installed and ready to go.
+                To install Joomla manually on a web server, you can follow the instructions in the website:
+                <a href="http://www.siteground.com/tutorials/joomla/how-to-install-joomla.htm"> How to Install
+                    Joomla?</a>
+            </p>
+            <h4>TZ Start Manual Installation</h4>
+
+            <p>Follow the steps below to install via Admin Panel (packed template file)</p>
+
+            <p>
+                Step 1: Log into the back-end of your site (www.your-site.com/administrator/)
+            </p>
+
+            <p>
+                Step 2: Click on: <b>Extensions -> Extension Manager</b>
+            </p>
+
+            <p>
+                Step 3: Click on the button "<b>choose the file</b>" in the "<b>Upload & Install Joomla Extension</b>"
+                area
+            </p>
+
+            <p>
+                Step 4: Navigate to find the "<b>package_template_zip</b>" file on your computer and click the button
+                "<b>Upload File & Install</b>"
+            </p>
+
+            <div class="container children">
+                <div class="span6">
+                    <p>
+                        Step 5: Wait while the theme is uploaded and installed.
+                    </p>
+
+                    <p>If the package contains no errors you are done and get a success message like the one beside.</p>
+                </div>
+                <div class="span6">
+                    <img src="img/mess_theme2.jpg" alt=""/>
+                </div>
+            </div>
+
+            <p>Step 6: Then click on: Extensions -> Template Manager and follow the following instructions like those
+                below.</p>
+            <img src="img/template-setdefault.png" alt=""/>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-3-1" class="general">
+    <header class="header-content"><h2 class="title">Layout</h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+            <p>Diary has 2 types of layout:</p>
+            <ul>
+                <li>Layout Default</li>
+                <li>Layout Home</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-3-1-1" class="general">
+    <header class="header-content"><h2 class="title">Layout Default</h2></header>
+    <div class="row-fluid">
+        <div class="text span8">
+            <p> General Layout</p>
+            <img src="img/layout_default.jpg" alt=""/>
+        </div>
+        <div class="span4">
+            <p> Detailed Layout</p>
+            <ul>
+                <li>1. Name : ImageLoading
+                    <br/>Custome Class : loading
+                </li>
+                <br/>
+                <li>2. Name : Header-blog
+                    <br/>Custome Class : header-blog
+                    <br/>Background : rgb(255, 255, 255)
+                </li>
+                <br/>
+                <li>3. Type : Mega Menu
+                    <br/>Position : menu
+                    <br/>Custome Class : menu-blog
+                </li>
+                <br/>
+                <li>4. Name : Topbody
+                    <br/>Background: rgb(247, 246, 244)
+                </li>
+                <br/>
+                <li>5. Name : MainBlog
+                    <br/>Custome Class : main-blog
+                    <br/>Background : rgb(247, 246, 244)
+                </li>
+                <br/>
+                <li>6. Name : Footer
+                    <br/>Custome Class : footer
+                </li>
+                <br/>
+                <li>7. Type : Modules
+                    <br/>Position : footer1
+                    <br/>Custome Class : footer_body left
+                </li>
+                <br/>
+                <li>8. Type : Modules
+                    <br/>Position : footer2
+                    <br/>Custome Class : footer_body left
+                </li>
+                <br/>
+                <li>9. Name : Copyright
+                    <br/>Background : rgb(21, 22, 28)
+                    <br/>Custome Class : tzcopyright
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-3-1-2" class="general">
+    <header class="header-content"><h2 class="title">Layout Home</h2></header>
+    <div class="row-fluid">
+        <div class="text span8">
+            <p>General Layout</p>
+            <img src="img/layout_home.jpg" alt=""/>
+        </div>
+        <div class="span4">
+            <p>Detailed Layout</p>
+            <ul>
+
+                <li>1. Name : FullSlide
+                    <br/>Custome Class : fullslide
+                    <br/>Margin : 0
+                    <br/>Padding : 0
+                </li>
+                <br/>
+                <li>2. Name : Header
+                    <br/>Custome Class : header
+                </li>
+                <br/>
+                <li>3. Name : About
+                    <br/>Custome Class : about
+                </li>
+                <br/>
+                <li>4. Name : Offer
+                    <br/>Custome Class : offer
+                </li>
+                <br/>
+                <li>5. Name : OurTeam
+                    <br/>Custome Class : our_team
+                </li>
+                <br/>
+                <li>6. Name : Feature
+                    <br/>Custome Class : features
+                </li>
+                <br/>
+                <li>7. Name : Milestones
+                    <br/>Custome Class : milestones
+                </li>
+                <br/>
+                <li>8. Name : Purchase
+                    <br/>Custome Class : purchase
+                </li>
+                <br/>
+
+                <li>9. Position : Portfolio
+                    <br/>Custome Class : block__portfolio
+                </li>
+                <br/>
+                <li>10. Name : RecentBlog
+                    <br/>Custome Class : blogs
+                </li>
+                <br/>
+                <li>11. Name : Contact
+                    <br/>Custome Class : contact
+                </li>
+                <br/>
+                <li>12. Name : Footer
+                    <br/>Custome Class : footer
+                </li>
+                <br/>
+                <li>13. Name : Copyright
+                    <br/>Background : rgb(21, 22, 28)
+                    <br/>Custome Class : tzcopyright
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-3-2">
+    <header class="header-content"><h2 class="title">Font</h2></header>
+    <div class="row-fluid">
+        <div class=" text span12">
+            <p>You can configure font by: Going to Administrator/Template Manager/Your Template/Advances/Font.You can see an
+                below image.</p>
+            <img src="img/font-setting.jpg" alt=""/>
+
+            <p><b>Layout Home :</b></p>
+            <ul>
+                <li><b>NovecentosanswideLight : </b> .slogan</li>
+                <li><b>NovecentosanswideMedium : </b> .site-name</li>
+                <li><b>NovecentosanswideNormal : </b> .title-big h1 span</li>
+                <li><b>NovecentosanswideBold : </b> .title-big h1, .blogs .blog-content .blog-title a</li>
+            </ul>
+            <p><b>Layout Default :</b></p>
+            <ul>
+                <li><b>NovecentosanswideLight : </b> .slogan</li>
+                <li><b>NovecentosanswideMedium : </b> .site-name</li>
+                <li><b>NovecentosanswideNormal : </b> .title-big h1 span</li>
+                <li><b>NovecentosanswideBold : </b> .title-big h1, .blogs .blog-content .blog-title a</li>
+                <li><b>OpenSansLight : </b> .blog-time, .corner-date span</li>
+                <li><b>OpenSansRegular : </b> .error-color</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-3-3">
+    <header class="header-content"><h2 class="title"> Theme </h2></header>
+    <p> You can configure for your theme in Theme tab in Template Manager. </p>
+    <img src="img/theme-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-3-4">
+    <header class="header-content"><h2 class="title"> Advanced Setting </h2></header>
+    <div class="row-fluid">
+        <div class="span12">
+            <p> You will be able to configure about css by:<br/>
+                Going to Administrator/Template Manager/Advanced Setting.<br/></p>
+            <img src="img/template-advance_setting.jpg" alt=""/>
+        </div>
+    </div>
+</section>
+
+
+<section id="Menu-4" class="general">
+    <header class="header-content"><h2 class="title">Module</h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+            <p>To create a new module, follow the steps below to install via Admin Panel (packed template file)</p>
+
+            <p>Step 1: Log into the back-end of your site (www.your-site.com/administrator/)</p>
+
+            <p>Step 2: Click on: <b>Extensions -> Module Manager</b></p>
+
+            <p>Step 3: Click on the button <b>"New"</b></p>
+
+            <p>Step 4: Select a Module Type</p>
+
+            <p>Step 5: Click the button "Save" after you are sure that you have finished all the
+                requirements in each section (ex: title, module, Module Assignment, module permissions,
+                options and advanced, so on)
+            </p>
+
+            <p class="note">Below are some special notes for each module which you want to use in TZ Start Template</p>
+        </div>
+    </div>
+</section>
+
+<section id="Menu-4-1">
+    <header class="header-content"><h2 class="title">Module in layout Home</h2></header>
+
+</section>
+
+<section id="Menu-4-1-1" class="general">
+    <header class="header-content"><h2 class="title">1. Module TZ Mutil Slideshow</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type : TZ Mutil Slideshow</li>
+                <li>Module Position : fullslide</li>
+            </ul>
+        </div>
+        <div class="span6">
+            <img src="img/tz-full-slide.jpg" alt=""/>
+        </div>
+    </div>
+    <div>Config Module</div>
+    <ul>
+        <li>
+            <p><b>Basic Option</b></p>
+            <img src="img/tz-full-slide.png" alt=""/>
+        </li>
+        <li>
+            <p><b>Video Option</b></p>
+            <img src="img/Tz mutileslide_video option.png" alt=""/>
+        </li>
+        <li>
+            <p><b>Advanced Option</b></p>
+            <img src="img/tz-full-slide-layout.jpg" alt=""/>
+
+            <p> Layout "backstretch" : Slide image<br/>
+                Layout "SingleImage" : Single image<br/>
+                Layout "Video" : Video<br/>
+            </p>
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-2" class="general">
+    <header class="header-content"><h2 class="title">2. Fullslide - Text</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type : Custom </li>
+                <li>Module Position : fullslide</li>
+            </ul>
+
+        </div>
+        <div class="span6">
+            <img src="img/fullslide-text.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div id="homepage"&gt;<br />
+&lt;div class="overlay"&gt; &lt;/div&gt;<br />
+&lt;div class="overlay-color"&gt; &lt;/div&gt;<br />
+&lt;div class="homepage-inner"&gt;&lt;img src="images/logo-sh-pink.png" alt="" /&gt;<br />
+&lt;div class="since"&gt;SINCE 1978&lt;/div&gt;<br />
+&lt;div class="slogan"&gt;IT'S TIME TO&lt;/div&gt;<br />
+&lt;div class="site-name"&gt;START&lt;/div&gt;<br />
+&lt;div class="desc"&gt;START IS A MULTI PURPOSE HTML5 TEMPLATE&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;div id="button-scroll" class="hidden-xs"&gt;&lt;a href="#aboutus"&gt;LEARN MORE &lt;br /&gt; &lt;img src="images/arrow-down-pink.png" alt="" /&gt; &lt;/a&gt;&lt;/div&gt;<br />
+&lt;hr /&gt;&lt;/div&gt;
+</pre>
+    <img src="img/fullslide-text-setting.jpg" alt=""/>
+</section>
+    <section id="Menu-4-1-2" class="general">
+        <header class="header-content"><h2 class="title">3. About - Head</h2></header>
+        <div class="row-fluid">
+            <div class="span6">
+                <ul>
+                    <li>Module Type : Custom </li>
+                    <li>Module Position : about-head</li>
+                </ul>
+            </div>
+            <div class="span6">
+                <img src="img/about.jpg" alt=""/>
+            </div>
+        </div>
+        <p><b>Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+            we underlined)</p>
+        <pre>&lt;div class="title-big"&gt;<br />
+&lt;div class="decor-title"&gt;ABOUT US&lt;/div&gt;<br />
+&lt;h1&gt;EVERYTHINGABOUT US&lt;/h1&gt;<br />
+&lt;h2 class="subtitle"&gt;We deliver future proof web services for timely ideas in New York.&lt;/h2&gt;<br />
+&lt;hr /&gt;&lt;/div&gt;<br />
+&lt;p class="history"&gt;We established our company at Newyork. Compellingly transition inside progressive back thinking functional services. Our partnership customized and enabled catalyst exceptional goal oriented tactical platforms revolutionary process and initiate dynamic communities.&lt;/p&gt;
+</pre>
+        <img src="img/about1.jpg" alt=""/>
+    </section>
+<section id="Menu-4-1-3" class="general">
+    <header class="header-content"><h2 class="title">4. Logo</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <p>You can change logo website in configure template.</p>
+        </div>
+        <div class="span6">
+            <img src="img/logo.jpg" alt=""/>
+        </div>
+    </div>
+    <p>First, You go to admin/extensions/template manager/your template/theme.</p>
+    <img src="img/logo_setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-4" class="general">
+    <header class="header-content"><h2 class="title">5. Mega Menu</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <p>You can change menu in configure template.</p>
+        </div>
+        <div class="img span6">
+            <img src="img/menu.jpg" alt=""/>
+        </div>
+    </div>
+    <p>First, you go to admin/extensions/template manager/your template/navigation. You can go to Administrator/Template
+        Manager/Mega Menu to configure</p>
+</section>
+
+<section id="Menu-4-1-5" class="general">
+
+
+<section id="Menu-4-1-6" class="general">
+    <header class="header-content"><h2 class="title">6. About</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type : Tz Multi Purpose</li>
+                <li>Module Position : about–body</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/about.png" alt=""/>
+        </div>
+    </div>
+    <p><b>Config menu:</b>First, you must create group field and field. <a href="#Menu-7-2-1">See Here</a></p>
+    <ul>
+        <li>
+            <p><b>Step 1 :</b> Click button <img src="img/button_addnew.jpg" alt=""/> to add new information</p>
+        </li>
+        <li>
+            <p><b>Step 2 :</b> You can do like this below image.</p>
+            <img src="img/about-setting-step2.jpg" alt="">
+        </li>
+        <li>
+            <p><b>Step 3 :</b> Choose layout "tzabout".</p>
+            <img src="img/about-setting-step3.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 4 :</b> Last, you click button "Save" to save all information.</p>
+            <img src="img/about-setting-save-button.png" alt=""/>
+        </li>
+    </ul>
+
+</section>
+
+<section id="Menu-4-1-7" class="general">
+    <header class="header-content"><h2 class="title">7.About - Download </h2></header>
+    <div class="row-fluid">
+
+        <div class="text span6">
+            <ul>
+                <li>Module Type : Custom HTML</li>
+                <li>Module Position : about-foot</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/about-download.png" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module:</b>Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined) </p>
+    <pre>&lt;p&gt;&lt;button class="button"&gt; GET STARTED &lt;/button&gt;&lt;/p&gt;</pre>
+    <img src="img/about-download-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-8" class="general">
+    <header class="header-content"><h2 class="title">8. Offer</h2></header>
+    <div class="row-fluid">
+
+        <div class="text span6">
+            <ul>
+                <li>Module Type : TZ Multipurpose</li>
+                <li>Module Position : offer-body</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/offer.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Config module:</b>First, you must create group field and field. <a href="#Menu-7-2-2">See Here</a></p>
+    <ul>
+        <li>
+            <p><b>Step 1 :</b> Click button <img src="img/button_addnew.jpg" alt=""/> to add new information</p>
+        </li>
+        <li>
+            <p><b>Step 2 :</b> You can do like this below image.</p>
+            <img src="img/offer-setting-step2.jpg" alt="">
+        </li>
+        <li>
+            <p><b>Step 3 :</b> Set title and background for module.</p>
+            <img src="img/offer-setting-step3.jpg" alt=""/>
+
+            <p><b>Note:</b> You can change all title or all underlined parts</p>
+        </li>
+        <li>
+            <p><b>Step 4 :</b> Choose layout "tzabout".</p>
+            <img src="img/offer-setting-step4.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 5 :</b> Last, you click button "Save" to save all information.</p>
+            <img src="img/offer-setting-step5.jpg" alt=""/>
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-9" class="general">
+    <header class="header-content"><h2 class="title">9. Team - Head</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type : Custom </li>
+                <li>Module Position : team-body</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/team-header.png" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined) </p>
+    <pre>&lt;div class="title-big"&gt;<br />
+&lt;div class="decor-title"&gt;OUR TEAM&lt;/div&gt;<br />
+&lt;h1&gt;AMAZING TEAM MEMBERS&lt;/h1&gt;<br />
+&lt;h2 class="subtitle"&gt;Our amazing team members are working for your happiness.&lt;/h2&gt;<br />
+&lt;hr /&gt;&lt;/div&gt;</pre>
+
+    <img src="img/team-head-setting.jpg" alt=""/>
+
+</section>
+
+<section id="Menu-4-1-10" class="general">
+    <header class="header-content"><h2 class="title">10. Team</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type : TZ Multipurpose</li>
+                <li>Module Position : team-body</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/team.png" alt=""/>
+        </div>
+    </div>
+    <p><b>Config module:</b>First, you must create group field and field. <a href="#Menu-7-2-3">See Here</a></p>
+    <ul>
+        <li>
+            <p><b>Step 1 :</b> Click button <img src="img/button_addnew.jpg" alt=""/> to add new information</p>
+        </li>
+        <li>
+            <p><b>Step 2 :</b> You can do like this below image.</p>
+            <img src="img/team-setting-step2.jpg" alt="">
+        </li>
+        <li>
+            <p><b>Step 3 :</b> Set option for module in tab "Our Team".</p>
+            <img src="img/team-setting-step3.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 4 :</b> Choose layout "ourteam".</p>
+            <img src="img/team-setting-step4.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 5 :</b> Last, you click button "Save" to save all information.</p>
+            <img src="img/team-setting-step5.jpg" alt=""/>
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-11" class="general">
+    <header class="header-content"><h2 class="title">11. Feature Slide</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type : TZ Multipurpose</li>
+                <li>Module Position : feature</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/feature-slide.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Config module:</b>First, you must create group field and field. <a href="#Menu-7-2-4">See Here</a></p>
+    <ul>
+        <li>
+            <p><b>Step 1 :</b> Click button <img src="img/button_addnew.jpg" alt=""/> to add new information</p>
+        </li>
+        <li>
+            <p><b>Step 2 :</b> You can do like this below image.</p>
+            <img src="img/feature-slide-setting-step2.jpg" alt="">
+        </li>
+        <li>
+            <p><b>Step 3 :</b> Set option for module in tab "Our Team".</p>
+            <img src="img/feature-slide-setting-step3.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 4 :</b> Choose layout "ourteam".</p>
+            <img src="img/feature-slide-setting-step4.jpg" alt=""/>
+        </li>
+        <li>
+            <p><b>Step 5 :</b> Last, you click button "Save" to save all information.</p>
+            <img src="img/feature-slide-setting-step5.jpg" alt=""/>
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-12" class="general">
+    <header class="header-content"><h2 class="title">12. Milestones - Head</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type : Custom HTML</li>
+                <li>Module Position : milestones</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/milestones-head.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module :</b>Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined) </p>
+    <pre>&lt;p&gt;&lt;img class="img-circle man" src="images/earned-customers/man.png" alt="" /&gt;&lt;/p&gt;<br />
+&lt;h1 class="title-smooth"&gt;OUR CUSTOMERS CAN’T BE WRONG&lt;/h1&gt;<br />
+&lt;hr /&gt;<br />
+&lt;p class="title-desc"&gt;Dramatically whereas real time resource competency products corporate manufactured products and energistically administrate team.&lt;/p&gt;</pre>
+
+    <img alt="" src="img/milestones-head-setting.jpg"/>
+</section>
+
+<section id="Menu-4-1-13" class="general">
+    <header class="header-content"><h2 class="title">13. Milestones</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type : Tz Employee</li>
+                <li>Module Position : milestones</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/milestones.jpg" alt="">
+        </div>
+    </div>
+    <p><b>Config module:</b></p>
+    <ul>
+        <li><b>Basic option</b><br/>
+            <img src="img/milestone-create-item.png" alt=""/>
+        </li>
+        <li><b>Advanced option:</b><br/>
+            <img alt="" src="img/milestones-layout-setting.jpg"/>
+            Note: Recommend choose layout milestones.
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-14" class="general">
+    <header class="header-content"><h2 class="title">14.Purchase - Body </h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type: Tz Purchase</li>
+                <li>Module Position: purchase</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/purchase-body.png" alt=""/>
+        </div>
+    </div>
+    <p><b>Config module:</b></p>
+    <ul>
+        <li><b>Basic option</b><br/>
+            <img alt="" src="img/purchase-body-basic-option.png"/>
+        </li>
+        <li><b>Advanced option</b><br/>
+            <strong>Note:</strong>Layout default is default.
+        </li>
+    </ul>
+
+</section>
+
+<section id="Menu-4-1-15" class="general">
+    <header class="header-content"><h2 class="title">15. Purchase - Footer</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: purchase</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/purchase-footer.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module :</b>Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined) </p>
+    <img src="img/purchase-footer-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-16" class="general">
+    <header class="header-content"><h2 class="title">16. Mass-top</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: mass-top</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/mass-top.png" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="title-big"&gt;<br />
+&lt;div class="decor-title"&gt;PORTFOLIO&lt;/div&gt;<br />
+&lt;h1&gt;OUR LOVELY PORTFOLIO&lt;/h1&gt;<br />
+&lt;h2 class="subtitle"&gt;Please have a look our recent works to have info about us.&lt;/h2&gt;<br />
+&lt;hr /&gt;&lt;/div&gt;</pre>
+
+    <img src="img/mass-top-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-17" class="general">
+    <header class="header-content"><h2 class="title">17. Component</h2></header>
+    <p>Component : TZ Portfolio<br/>
+        You can create a Portfolio view from Com TZ Portfolio and you can config Ratio for images in template.
+    </p>
+    <img src="img/component.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-18" class="general">
+    <header class="header-content"><h2 class="title">18. Blog - Head</h2></header>
+    <div class="row-fluid">
+        <div class="span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: blog</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/blog-head.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b>Content module :</b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="tz__block__title"&gt;<br />
+&lt;div&gt;&lt;img class="img-circle woman" src="images/blog/woman.png" alt="" /&gt;&lt;/div&gt;<br />
+&lt;h1 class="title-smooth"&gt;RECENT BLOG POSTS&lt;/h1&gt;<br />
+&lt;hr /&gt;<br />
+&lt;p class="title-desc"&gt;Professionally orchestrate multidisciplinary web readiness after covalent expertise before leading edge alignments.&lt;/p&gt;<br />
+&lt;/div&gt;</pre>
+    <img src="img/blog-head-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-19" class="general">
+    <header class="header-content"><h2 class="title">19. Recent</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Articles - Category</li>
+                <li>Module Position: blog</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/recent-blog.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Config module: </b></p>
+    <ul>
+        <li><b>Basic option:</b><br/>
+            <img src="img/recent-blog-basic-option.jpg" alt=""/>
+        </li>
+        <li><b>Select Category:</b><br/>
+            <img src="img/recent-blog-select-cate.jpg" alt=""/>
+        </li>
+        <li><b>Layout:</b> Choose layout "default".</li>
+    </ul>
+</section>
+
+<section id="Menu-4-1-20" class="general">
+    <header class="header-content"><h2 class="title">20. Contact - Head</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: contact</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/contact-head.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Config module </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="overlay"&gt; &lt;/div&gt;<br />
+&lt;div class="overlay-color"&gt; &lt;/div&gt;<br />
+&lt;div class="bg-contact"&gt; &lt;/div&gt;<br />
+&lt;div class="container"&gt;<br />
+&lt;h1 class="title-smooth"&gt;CONTACT US TODAY&lt;/h1&gt;<br />
+&lt;hr /&gt;<br />
+&lt;p class="title-desc"&gt;Credibly incentivize customer directed benefits through cross media mindshare functionalized innovation without backend markets.&lt;/p&gt;<br />
+&lt;/div&gt;</pre>
+    <img src="img/contact-head-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-21" class="general">
+    <header class="header-content"><h2 class="title">21. Contact - Body </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Tz Contact</li>
+                <li>Module Position: contact</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/contact-body.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Step 1: </b> Create contact. <br/> To create contact, you can go to Administrator --> Component --> Contact
+        --> Create New Contact. <br/> (You can see instruction with below image)
+    </p>
+    <img src="img/contact-body-create-contact.png" alt=""/>
+
+    <p><br/><b> Step 2 :</b> Config module.</p>
+    <img src="img/contact-body-basic.png" alt=""/>
+</section>
+
+
+<section id="Menu-4-1-22" class="general">
+    <header class="header-content"><h2 class="title">22. Contact - Logo </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: contact</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/contact-logo.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module : </b>Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="logos container"&gt;<br />
+&lt;div class="img-wrap row"&gt;&lt;img class="img-responsive" src="images/clients/1.png" alt="" /&gt; &lt;img class="img-responsive" src="images/clients/2.png" alt="" /&gt; &lt;img class="img-responsive" src="images/clients/3.png" alt="" /&gt; &lt;img class="img-responsive" src="images/clients/4.png" alt="" /&gt; &lt;img class="img-responsive" src="images/clients/5.png" alt="" /&gt;&lt;/div&gt;<br />
+&lt;/div&gt;</pre>
+    <img src="img/contact-logo-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-23" class="general">
+    <header class="header-content"><h2 class="title">23. To Top </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: footer-totop</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/footer-totop.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module: </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div id="back"&gt;&lt;a class="back"&gt; &lt;img src="images/logo-sh-pink.png" alt="" /&gt; BACK TO TOP &lt;/a&gt;&lt;/div&gt;</pre>
+    <img src="img/footer-totop-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-24" class="general">
+    <header class="header-content"><h2 class="title">24. Footer - Left </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: footer1</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/footer-left.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;ul class="contacts"&gt;<br />
+&lt;li class="tel"&gt;+1782348872&lt;/li&gt;<br />
+&lt;li class="email"&gt;info@domain.com&lt;/li&gt;<br />
+&lt;li class="location"&gt;New York, USA&lt;/li&gt;<br />
+&lt;/ul&gt;</pre>
+    <img src="img/footer-left-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-25" class="general">
+    <header class="header-content"><h2 class="title">25. Footer - Right </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: footer2</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/footer-right.jpg" alt=""/>
+        </div>
+    </div>
+
+    <p><b> Content module : </b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="social-icons"&gt; &lt;/div&gt;</pre>
+    <img src="img/footer-right-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-1-26" class="general">
+    <header class="header-content"><h2 class="title">26. Copy Right </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom</li>
+                <li>Module Position: footer_copyright</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/footer-copy-right.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module :</b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <pre>&lt;div class="copyright"&gt;© 2014  &lt;a href="#"&gt;START TEMPLATE&lt;/a&gt;   BY  &lt;a href="http://www.templaza.com/"&gt;TemPlaza&lt;/a&gt;&lt;/div&gt;</pre>
+    <img src="img/footer-copy-right-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-2">
+    <header class="header-content"><h2 class="title">Module in layout Default</h2></header>
+    <img src="img/default.jpg" alt=""/>
+</section>
+<section id="Menu-4-2-1" class="general">
+    <header class="header-content"><h2 class="title">1. Blog Single </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: top</li>
+            </ul>
+        </div>
+        <div class="span6">
+            <img src="img/blog-single.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module :</b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <img src="img/blog-single-setting.jpg" alt=""/>
+</section>
+<section id="Menu-4-2-2" class="general">
+    <header class="header-content"><h2 class="title">2. Search - Blog</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Search</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/search-blog.jpg" alt=""/>
+        </div>
+    </div>
+    <p><strong> Configure Module </strong></p>
+    <img src="img/search-button.png"/>
+</section>
+<section id="Menu-4-2-3" class="general">
+    <header class="header-content"><h2 class="title">3. Menu Categories</h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: TZ Categories Menu</li>
+                <li>Module Position: Right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/menu-category.png" alt=""/>
+        </div>
+    </div>
+    <p><strong> Configure Module </strong></p>
+    <img src="img/menu-categories-basic.png" alt=""/>
+
+</section>
+<section id="Menu-4-2-4" class="general">
+    <header class="header-content"><h2 class="title">4. Flickr Photos </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module TZ FLICK STREAM</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="span6">
+            <img src="img/flickr-photo.png" alt=""/>
+        </div>
+    </div>
+    <p><strong> Configure Module: </strong></p>
+    <img src="img/flick-photo-basic.png" alt=""/>
+</section>
+<section id="Menu-4-2-5" class="general">
+    <header class="header-content"><h2 class="title">5. Text Widget </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/text-widget.png" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module :</b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <img src="img/text-widget-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-4-2-6" class="general">
+    <header class="header-content"><h2 class="title">6. Archives </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: TZ Archived Articles</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/archives.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Conffig module :</b></p>
+    <img src="img/archive-basic.png" alt=""/>
+</section>
+
+<section id="Menu-4-2-7" class="general">
+    <header class="header-content"><h2 class="title">7. Recent Post </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: TZ Latest News</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/recent-post.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Config module :</b></p>
+    <img src="img/recent-post-basic.png" alt=""/>
+</section>
+
+<section id="Menu-4-2-8" class="general">
+    <header class="header-content"><h2 class="title">8. Tag </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Tz Tags</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/tag.png" alt=""/>
+        </div>
+    </div>
+    <p><b> Config module :</b></p>
+    <img src="img/tag-basic-option.png" alt=""/>
+</section>
+
+<section id="Menu-4-2-9" class="general">
+    <header class="header-content"><h2 class="title">9. To Top - Default </h2></header>
+    <div class="row-fluid">
+        <div class="text span6">
+            <ul>
+                <li>Module Type: Custom HTML</li>
+                <li>Module Position: right</li>
+            </ul>
+        </div>
+        <div class="img span6">
+            <img src="img/totop-default.jpg" alt=""/>
+        </div>
+    </div>
+    <p><b> Content module :</b> Toggle editor to see content of module so that you change the part that is marked ( as
+        we underlined)</p>
+    <img src="img/totop-default-setting.jpg" alt=""/>
+</section>
+
+<section id="Menu-5" class="general">
+    <section id="Menu-4-2">
+        <header class="header-content"><h2 class="title">Menu Items</h2></header>
+
+    </section>
+    <section id="Menu-4-2-1" class="general">
+        <header class="header-content"><h2 class="title">1. Home(150) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type : Menu Item Alias</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <div class="span6">
+                <img src="img/home-150.jpg" alt=""/>
+            </div>
+        </div>
+
+    </section>
+    <section id="Menu-4-2-2" class="general">
+        <header class="header-content"><h2 class="title">2. About(149) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type : Menu Item Alias</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <div class="img span6">
+                <img src="img/about-149.jpg" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section id="Menu-4-2-3" class="general">
+        <header class="header-content"><h2 class="title">3. Team(151)</h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type : Menu Item Alias</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <div class="img span6">
+                <img src="img/team-1.png" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section id="Menu-4-2-4" class="general">
+        <header class="header-content"><h2 class="title">4.Portfolio (152) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :TZ Portfolio Plus » Portfolio</li>
+                    <li>Template Style: Use Default</li>
+                    <li>TZ Portfolio Plus Template Style:  Use Default</li>
+                </ul>
+            </div>
+
+            <img src="img/porfoilo-1.png" alt=""/>
+    </section>
+    <section id="Menu-4-2-5" class="general">
+        <header class="header-content"><h2 class="title">5. Blog(154) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Articles » Category Blog</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+
+            <img src="img/blog-1.jpg" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-6" class="general">
+        <header class="header-content"><h2 class="title">6. Compact list of tagged items </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Articles » Category Blog</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/compact-1.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-7" class="general">
+        <header class="header-content"><h2 class="title">7. List of all tags </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Tags » List of all tags</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/tags-1.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-8" class="general">
+        <header class="header-content"><h2 class="title">8.	Tagged Items  </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Tags » Tagged Items</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/tag-2.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-9" class="general">
+        <header class="header-content"><h2 class="title">9. Contact(153) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Tags » Tagged Items</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/contact-2.jpg" alt=""/>
+    </section>
+    <section id="Menu-4-2-1" class="general">
+        <header class="header-content"><h2 class="title">10. Home(101) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type : Articles » Featured Articles</li>
+                    <li>Template Style:  TZ Start - Home</li>
+                </ul>
+            </div>
+            <div class="span6">
+                <img src="img/home-101.jpg" alt=""/>
+            </div>
+        </div>
+
+    </section>
+    <section id="Menu-4-2-2" class="general">
+        <header class="header-content"><h2 class="title">11. About(110) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :External URL/li>
+                    <li>Template Style: TZ Start - Home</li>
+                </ul>
+            </div>
+            <div class="img span6">
+                <img src="img/about-110.jpg" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section id="Menu-4-2-3" class="general">
+        <header class="header-content"><h2 class="title">12. Team(111)</h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type : External URL</li>
+                    <li>Template Style: TZ Start - Home</li>
+                </ul>
+            </div>
+            <div class="img span6">
+                <img src="img/team-111.png" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section id="Menu-4-2-4" class="general">
+        <header class="header-content"><h2 class="title">13.Portfolio  (112) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :External URL</li>
+                    <li>Template Style: TZ Start - Home</li>
+                </ul>
+            </div>
+
+            <img src="img/porfoilo-112.png" alt=""/>
+    </section>
+    <section id="Menu-4-2-5" class="general">
+        <header class="header-content"><h2 class="title">14. Blog(113) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :External URL</li>
+                    <li>Template Style: TZ Start - Home</li>
+                </ul>
+            </div>
+
+            <img src="img/blog-113.jpg" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-6" class="general">
+        <header class="header-content"><h2 class="title">15. Contact (114) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :External URL</li>
+                    <li>Template Style: TZ Start - Home</li>
+                </ul>
+            </div>
+            <img src="img/compact-114.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-7" class="general">
+        <header class="header-content"><h2 class="title">16. Feature Slider  </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Articles » Category Blog</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/tags-11.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-8" class="general">
+        <header class="header-content"><h2 class="title">17.Slideshow   </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Articles » Category Blog</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/tag-12.png" alt=""/>
+    </section>
+
+    <section id="Menu-4-2-9" class="general">
+        <header class="header-content"><h2 class="title">18.Search (237) </h2></header>
+        <div class="row-fluid">
+            <div class="text span6">
+                <ul>
+                    <li>Menu Item Type :Search » Search Form or Search Results</li>
+                    <li>Template Style: Use Default</li>
+                </ul>
+            </div>
+            <img src="img/contact-237.jpg" alt=""/>
+    </section>
+
+    <section id="Menu-5" class="general">
+    <header class="header-content"><h2 class="title">Basic Things </h2></header>
+    <div class="row-fluid">
+        <div class="text span12">
+            <p>
+                The header is probably one of the first things you will want to set up.
+                It includes everything above and including the menu, mega menu Configuration,
+                and we will mention creating tags, categories, articles in this section.
+                All of this is done via our Admin Panel.
+                The following sections will cover several different sections of the header that are listed below.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <p class="note">1. Adding a new tag</p>
+
+        <p>To create tags which you want to use in each article, you need to install the “TZ Portfolio”.</p>
+
+        <p>Step 1: Log into the back-end of your site (www.your-site.com/administrator/)</p>
+
+        <p>Step 2: Click on: <b>Extensions -> Extension Manager</b></p>
+
+        <p>Step 3: Click on the button “<b>choose the file</b>” in the “<b>Upload & Install Joomla Extension</b>” area
+        </p>
+
+        <p>Step 4: Navigate to find the “<b>tz-portfolio-plus_v_1.1.1.zip</b>” file on your computer and click the
+            button "<b>Upload File & Install</b>"</p>
+
+        <p>Step 5: Wait while the theme is uploaded and installed.</p>
+
+        <p class="note">If the package contains no errors you are done and get a success message,
+            then you continue to create a new module as normally.</p>
+
+
+        <p>To add a new tag, do the followings:</p>
+
+        <p>Step 1: Click on: Components -> TZ Portfolio ->Tags</p>
+
+        <p>Step2: Click on the button “New”</p>
+        <img src="img/tag.1.jpg" alt=""/>
+
+        <p>Step 3: Complete the fields as required</p>
+        <img src="img/tag 3.jpg" alt=""/>
+
+        <p>Name: A proper title for the tag.</p>
+
+        <p>Published: Published</p>
+
+        <p>Step 4: Click the Save toolbar button to create the new tag</p>
+        <img src="img/tag4.jpg" alt=""/>
+
+        <p>To leave without saving click the Cancel toolbar button</p>
+
+        <p>When you go to the Article Manager and select the Section that you created, the tags list will show the tags
+            assigned to that Section</p>
+        <img src="img/tag5.jpg" alt=""/>
+    </div>
+    <div>
+        <p class="note">2. Adding a new category</p>
+
+        <p>Like creating a new tag, you need to have TZ Portfolio. You can see TZ Portfolio’s installation above.</p>
+
+        <p>To add a new tag, do the followings:</p>
+
+        <p>
+            Step 1: Click on: Components -> TZ Portfolio ->Categories<br/>
+            Step 2: When the new page loads, click on the “New” button
+        </p>
+        <img src="img/Phuong.jpg" alt=""/>
+
+        <p>Step 3: Enter the following fields:</p>
+        <img src="img/Step3category.jpg" alt=""/><br/>
+
+        <p>(1)Title: The name of the Category. This is what will show on the pages if needed<br/>
+            (2) Alias: (optional) A unique name for the Category. It is not shown anywhere. If left blank, Joomla will
+            fill it in automatically.<br/>
+            (3)Image: (Optional) displays and Image next to the Category Title on the web pages with the Category Title
+            Showing.<br/>
+            (4) Description: (optional) Describe what the Category is and what it is used for.
+            While this is optional, it is recommended in case other site administrators try to use the Category<br/>
+            Step 4: When all fields have been completed, click the Save button</p>
+        <img src="img/tag4.jpg"/>
+
+        <p>When you go to the Article Manager and select the Section that you created, the category list will show the
+            Categories assigned to that Section</p>
+        <img src="img/Step5category (3).jpg" alt=""/>
+
+        <p class="note">3. Add a new menu</p>
+
+        <p>
+            To add a new menu which can hold menu items do the following:<br/>
+            Step1: Log in to the Joomla! Administrator Back-end.<br/>
+            Step2: Click <b>Menus > Menu Manager </b>on the toolbar menu. The Menu Manager screen opens.<br/>
+        </p>
+        <img src="img/menu1.jpg" alt=""/>
+
+        <p>Step3: Click the New toolbar button. The New/Edit Menu screen opens.</p>
+        <img src="img/menu3.jpg" alt=""/>
+
+        <p>Step 4: Complete the fields as required:</p>
+
+        <p>Title: A proper title for the menu. This is used to identify the menu the Menu Manager in the backend.</p>
+
+        <p>Menu type: This should be a unique identification name used by Joomla! to identify this menu.
+            Spaces are not allowed but you may use the '-' character such as news-menu.</p>
+
+        <p>Description: A description of the menu, useful for your own reference.</p>
+
+        <p>Step 5: Click the Save toolbar button to create the new menu.</p>
+        <img src="img/Step4category (1).jpg" alt=""/>
+        </p>To leave without saving click the Cancel toolbar button</p>
+        <p>You can now add new menu items to the newly created menu.</p>
+    </div>
+</section>
+<section id="Menu-6">
+    <header class="header-content"><h2 class="title">Com TZ Portfolio+</h2></header>
+    <p><strong> Installation </strong></p>
+
+    <p><strong> Step 1 </strong>: Log into the back-end of your site (www.your-site.com/administrator/).</p>
+
+    <p><strong> Step 2 </strong>: Click on: Extensions -> Extension Manager. </p>
+
+    <p><strong> Step 3 </strong>: Click on the button "choose the file" in the "Upload & Install Joomla Extension" area.
+    </p>
+
+    <p><strong> Step 4 </strong>: Navigate to find the "tz-portfolio-plus_v_1.1.1.zip" file on your computer and click the
+        button "Upload File & Install". </p>
+
+    <p><strong> Step 5 </strong>: Wait while the theme is uploaded and installed.</p>
+
+    <p>Note: If the package contains no errors you are done and get a success message, then you continue to create a new
+        module as normally.</p>
+
+
+    <p><strong> Configure Component </strong></p>
+
+    <p> Administrator/Components/Global Configuration/ TZ Portfolio Plus Manager Options </p>
+    <img src="img/Portfolio Gneral.png" alt=""/>
+    <img src="img/Portfolio Time line.png" alt=""/>
+    <img src="img/Portfolio tag and user.png" alt=""/>
+    <img src="img/Portfolio Tz Gallery.png" alt=""/>
+</section>
+
+<section id="Menu-7">
+    <header class="header-content"><h2 class="title">How to Create Group Fields and Fields</h2></header>
+    <p> Generally, Start template has 4 Group Fields.</p>
+</section>
+
+<section id="Menu-7-1">
+    <header class="header-content"><h2 class="title">How to create Group Fields</h2></header>
+    <ul>
+        <li><p><b>Step 1 : </b>You go to Administrator/Components/Tz Multi Purposes/Group Fields/New</p></li>
+        <li><p><b>Step 2 : </b>You can continue creating 4 Group Fields : "About","Offer","Team","Feature"</p><br/>
+            <img src="img/4-group-fields.jpg" alt=""/>
+        </li>
+    </ul>
+</section>
+
+<section id="Menu-7-2">
+    <header class="header-content"><h2 class="title">How to create Fields in Group Fields</h2></header>
+    <p> Each Group Field will contain many different Fields.</p>
+</section>
+<section id="Menu-7-2-1">
+    <header class="header-content"><h2 class="title">Fields in Group Fields "About"</h2></header>
+    <ul>
+        <li>
+            <p><b>Step 1 : </b>Going to Administrator/Components/Tz Multi Purposes/Fields/New.</p>
+        </li>
+        <li>
+            <p><b>Step 2 : </b>You can continue creating fields ( As below images)</p>
+            <ul>
+                <li><p><b>Icon</b></p><br/><img src="img/about-icon-fields.png" alt=""/></li>
+                <li><p><b>Title</b></p><br/><img src="img/about-title-field.png" alt=""/></li>
+                <li><p><b>Description</b></p><br/><img src="img/about-description-field.png" alt=""/></li>
+                <li><p><b>Link</b></p><br/><img src="img/about-link-field.png" alt=""/></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section id="Menu-7-2-2">
+    <header class="header-content"><h2 class="title">Fields in Group Fields "Offer"</h2></header>
+    <ul>
+        <li>
+            <p><b>Step 1 : </b>Going to Administrator/Components/Tz Multi Purposes/Fields/New.</p>
+        </li>
+        <li>
+            <p><b>Step 2 : </b>You can continue creating fields ( As below images)</p>
+            <ul>
+                <li><p><b>Content</b></p><br/><img src="img/offer-content-field.jpg" alt=""/></li>
+                <li><p><b>Image Icon</b></p><br/><img src="img/offer-image-icon-field.jpg" alt=""/></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section id="Menu-7-2-3">
+    <header class="header-content"><h2 class="title">Fields in Group Fields "Team" </h2></header>
+    <ul>
+        <li>
+            <p><b>Step 1 : </b>Going to Administrator/Components/Tz Multi Purposes/Fields/New.</p>
+        </li>
+        <li>
+            <p><b>Step 2 : </b>You can continue creating fields ( As below images)</p>
+            <ul>
+                <li><p><b>Image</b></p><br/><img src="img/team-image-field.png" alt=""/></li>
+                <li><p><b>Name</b></p><br/><img src="img/team-name-field.png" alt=""/></li>
+                <li><p><b>Job</b></p><br/><img src="img/team-job-field.png" alt=""/></li>
+                <li><p><b>Description</b></p><br/><img src="img/team-description-field.png" alt=""/></li>
+                <li><p><b>Facebook</b></p><br/><img src="img/team-facebook-field.png" alt=""/></li>
+                <li><p><b>Skype</b></p><br/><img src="img/team-skype-field.png" alt=""/></li>
+                <li><p><b>Twitter</b></p><br/><img src="img/team-twitter-field.png" alt=""/></li>
+                <li><p><b>Likedin</b></p><br/><img src="img/team-likelin-field.png" alt=""/></li>
+                <li><p><b>Background</b></p><br/><img src="img/team-background-field.png" alt=""/></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section id="Menu-7-2-4">
+    <header class="header-content"><h2 class="title">Fields in Group Fields "Feature"</h2></header>
+    <ul>
+        <li>
+            <p><b>Step 1 : </b>Going to Administrator/Components/Tz Multi Purposes/Fields/New.</p>
+        </li>
+        <li>
+            <p><b>Step 2 : </b>You can continue creating fields ( As below images)</p>
+            <ul>
+                <li><p><b>Links</b></p><br/><img src="img/feature-links-field.png" alt=""/></li>
+                <li><p><b>Title</b></p><br/><img src="img/feature-title-field.png" alt=""/></li>
+                <li><p><b>Content</b></p><br/><img src="img/feature-content-field.png" alt=""/></li>
+                <li><p><b>Button</b></p><br/><img src="img/feature-button-field.png" alt=""/></li>
+                <li><p><b>Image</b></p><br/><img src="img/feature-image-field.png" alt=""/></li>
+                <li><p><b>Icon</b></p><br/><img src="img/feature-icon-field.png" alt=""/></li>
+                <li><p><b>Class Image</b></p><br/><img src="img/feature-class-image.png" alt=""/></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+</div>
+</div>
+</body>
+</html>

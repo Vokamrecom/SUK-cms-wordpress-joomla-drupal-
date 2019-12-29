@@ -1,0 +1,7 @@
+my_module.routing:
+  path: '/admin/config/my_module'
+  defaults:
+    _title: 'news'
+    _controller: '\Drupal\my_module\Controller\MyModuleController::test'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,152 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+ //
+ // Menu Styles
+ // --------------------------------------------------
+
+ ul.nav > li > a i.fa {
+  padding-right: 5px;
+}
+.sunfw-direction-rtl ul.nav > li > a i.fa {
+  padding-right: 0;
+  padding-left: 5px;
+}
+
+
+
+
+div[class*='sunfw-pos-bottom-']{
+  .module-title .box-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: bold !important;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    color: #696e7b;
+  }
+	ul.menu {
+		li {
+			padding: 2.5px 0;
+			a, span.nav-header {
+				font-size: 10px;
+				font-weight: 600;
+				letter-spacing: normal;
+				color: #1f2842;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.sunfw-logo{
+  .logo-bottom{
+    margin-bottom: 20px;
+  }
+}
+
+
+// ---------------------Position Sticky-----------------------------\
+
+div[class*=sunfw-pos-stick-] {
+  position: fixed;
+  z-index: 8888;
+}
+
+.sunfw-pos-stick-lefttop {
+  @include rtl-left(0);
+}
+
+.sunfw-pos-stick-righttop {
+  @include rtl-right(0);
+}
+
+.sunfw-pos-stick-leftmiddle {
+  @include rtl-left(0);
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.sunfw-pos-stick-rightmiddle {
+  @include rtl-right(0);
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.sunfw-pos-stick-leftbottom {
+  @include rtl-left(0);
+  bottom: 0
+}
+
+.sunfw-pos-stick-rightbottom {
+  @include rtl-right(0);
+  bottom: 0;
+}
+.login-topbar{
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+  @include rtl-float-right();
+  h3.box-title{
+    font-size: 12px;
+    margin:0;
+    font-weight: normal;
+    cursor: pointer;
+  }
+  .module-body{
+    margin-top: 15px;
+    width: 300px;
+    border: 1px solid rgba(204, 204, 204, 0.1);;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    visibility: hidden;
+    position: absolute;
+    @include rtl-left(100%);
+    z-index: 99999;
+    background: #fbfbfb;
+    padding: 25px 15px;
+    min-width: 200px;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  &.active{
+    .module-body{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .checkbox{
+    @include rtl-margin-left(0);
+  }
+}
+.sunfw-view-archive {
+	.sunfw-item-module-position .p-right {
+		margin-bottom: 60px;
+	}
+	.sunfw_section_bottom {
+		margin-top: 40px;
+	}
+}
+// .sunfw-item-module-position {
+// 	.p-right {
+// 		h3.box-title {
+// 			font-weight: 500;
+// 			margin-top: 0;
+// 		}
+// 		ul.nav > li {
+// 			span.nav-header, > a {
+// 				opacity: 0.5;
+// 				padding: 17px 0 12px;
+// 			}
+// 			ul.nav-child li {
+// 			line-height: 1;
+// 			}
+// 		}
+// 	}
+// }

@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../OpenSansLight/OpenSans-Light-webfont.eot');
+    src: url('../OpenSansLight/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../OpenSansLight/OpenSans-Light-webfont.woff') format('woff'),
+    url('../OpenSansLight/OpenSans-Light-webfont.ttf') format('truetype'),
+    url('../OpenSansLight/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+    padding: 5px 0;
+}
+li {
+    padding: 6px 0;
+}
+a:focus {
+    outline: none;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #F7A811;
+}
+body {
+    font-family: OpenSansLight;
+    font-size: 15px;
+}
+
+/*************Header*************/
+
+#header {
+    background-color: #3F3F3F;
+    position: fixed;
+    width: 100%;
+}
+
+/*************Menu*************/
+
+.logo {
+    margin-left: 0;
+}
+.logo h1{
+    color: #FFFFFF;
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+#menu-main {
+    height: 50px;
+    line-height: normal;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#menu-main li {
+    display: inline-block;
+    line-height: normal;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.level_0 >  a {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;    
+    padding: 15px;
+    text-decoration: none;
+}
+#menu-main ul.children {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 1px solid #E1E5E7;
+    display: none;  
+    margin-left: 0;
+    z-index: 100;
+}
+.level_1 > a,
+.level_2 > a {
+    display: block;
+    padding: 10px;
+    position: relative;
+	min-width: 150px;
+}
+.level_1:hover .children_1{
+display:block;
+position: relative;
+}
+.children_1 {    
+    display: none;    
+	left: 100%;
+    margin: 0;
+    top: 0; 
+    z-index: 100;
+}
+
+.chil{
+ display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -1px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+.total_1{
+background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E1E5E7;
+    top: -1px;
+    width: 200px;
+}
+.total_1 .level_2:first-child,
+.total .level_2:first-child {
+    border-top: medium none;
+}
+.total_1 .level_2 ,
+.total .level_2 {
+    border-top: 1px solid #E1E5E7;
+}
+.total {
+ background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E1E5E7;
+    top: -1px;
+    width: 500px;
+}
+
+#menu-main li:hover ul.children {
+    display: block;
+    position: absolute;
+}
+#menu-main li:hover ul.children a {
+    color: #000;
+}
+#menu-main ul.children li {
+    display: block;
+}
+#menu-main ul.children li.level_1:hover >a {
+    color: #F7A811;
+}
+.children > li:first-child ,
+.children_1> li:first-child {
+    border: none;
+}
+.children > li ,
+.children_1 > li{
+    border-top: 1px solid #E1E5E7;
+}
+
+
+#menu-main ul.children.row2 {
+    width: 500px;
+    margin-left: -210px;
+}
+#menu-main ul.children.row2 .container {
+    width: 500px;
+}
+ul.children .container .row-fluid > .dropdown-menu {
+    background: #FBFBFB;
+    width: 50%;
+    position: relative;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+}
+ul.children .container .row-fluid > .dropdown-menu li a:hover,
+ul.children .container .row-fluid > .dropdown-menu li a:focus {
+    background-color: transparent;
+    background-image: none;
+    outline: none;
+}
+ul.children .container .dropdown-menu:first-child {
+    border-right: 1px solid #E1E5E7;
+}
+
+/**************Main Body**************/
+#mainbody {
+    display: block;
+}
+#mainbody .container {
+    padding-top: 100px;
+}
+#mainbody .container .title_head p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+section {
+    padding: 70px 0 0;
+}
+section .header-content {
+    border-bottom: 4px solid #F7A811;
+    margin-bottom: 30px;
+}
+section .header-content h2.title {
+    color: #3F3F3F;
+}
+#mainbody .container .container.children {
+    padding: 10px 0;
+}
+.config {
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.ul_cofig > li {
+    list-style-type: square;
+}
+.ul_cofig li img {
+    padding: 20px 0;
+}
+.note {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.end > p {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 100px 0;
+    text-align: center;
+}

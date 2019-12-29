@@ -1,0 +1,14 @@
+name: Monitoring Mail (Experimental)
+type: module
+description: Escalation mail for sensor result transition
+package: Monitoring
+# core: 8.x
+
+dependencies:
+ - monitoring:monitoring
+
+# Information added by Drupal.org packaging script on 2018-09-08
+version: '8.x-1.7'
+core: '8.x'
+project: 'monitoring'
+datestamp: 1536412688

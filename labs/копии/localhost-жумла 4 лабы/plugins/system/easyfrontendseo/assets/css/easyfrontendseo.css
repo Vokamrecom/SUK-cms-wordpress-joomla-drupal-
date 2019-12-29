@@ -1,0 +1,225 @@
+/**
+ * @Copyright
+ * @package     EFSEO - Easy Frontend SEO for Joomal! 3.x
+ * @author      Viktor Vogel <admin@kubik-rubik.de>
+ * @version     3.4.1 - 2019-06-29
+ * @link        https://kubik-rubik.de/efseo-easy-frontend-seo
+ *
+ * @license     GNU/GPL
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#easyfrontendseo {
+    background-color: white;
+    color: black;
+    position: relative;
+    z-index: 999;
+    max-width: 960px;
+    width: auto;
+    margin: auto auto 5px !important;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+
+#easyfrontendseo br {
+    clear: both;
+}
+
+#easyfrontendseo label {
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#easyfrontendseo input[type="text"] {
+    width: 75%;
+    float: right;
+}
+
+#easyfrontendseo input[type="checkbox"] {
+    vertical-align: text-bottom;
+}
+
+#easyfrontendseo input[type="submit"] {
+    margin: 10px 0;
+}
+
+#easyfrontendseo textarea {
+    width: 75%;
+    float: right;
+}
+
+#easyfrontendseo .small {
+    font-size: 13px;
+}
+
+#easyfrontendseo .efseo_disabled {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+}
+
+#easyfrontendseo .efseo_counter {
+    display: block;
+    min-height: 18px;
+}
+
+#easyfrontendseo .donate_notice {
+    background-color: #FFEDF1;
+    padding: 10px;
+}
+
+#easyfrontendseo .overwrite_notice {
+    background-color: #FCFA76;
+    padding: 10px;
+}
+
+#easyfrontendseo_topbar {
+    background-color: #FCFCFC;
+    color: #D3D3D3;
+    position: relative;
+    z-index: 999;
+    width: 100px;
+    margin: auto auto 5px !important;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px 5px 5px 5px;
+    padding: 3px 5px 5px;
+    text-align: center;
+}
+
+#easyfrontendseo_lightbox_button_0 {
+    background-color: #FCFCFC;
+    border: 1px solid #D3D3D3;
+    top: 10px;
+    left: 10px;
+    padding: 3px 5px 5px;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 8px;
+}
+
+#easyfrontendseo_lightbox_button_0 a:hover {
+    background-color: #F4F4F4;
+}
+
+#easyfrontendseo_lightbox_button_1 {
+    background-color: #FCFCFC;
+    border: 1px solid #D3D3D3;
+    top: 10px;
+    right: 10px;
+    padding: 3px 5px 5px;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 8px;
+}
+
+#easyfrontendseo_lightbox_button_1 a:hover {
+    background-color: #F4F4F4;
+}
+
+#easyfrontendseo_lightbox_button_2 {
+    background-color: #FCFCFC;
+    border: 1px solid #D3D3D3;
+    bottom: 10px;
+    right: 10px;
+    padding: 3px 5px 5px;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 8px;
+}
+
+#easyfrontendseo_lightbox_button_2 a:hover {
+    background-color: #F4F4F4;
+}
+
+#easyfrontendseo_lightbox_button_3 {
+    background-color: #FCFCFC;
+    border: 1px solid #D3D3D3;
+    bottom: 10px;
+    left: 10px;
+    padding: 3px 5px 5px;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 8px;
+}
+
+#easyfrontendseo_lightbox_button_3 a:hover {
+    background-color: #F4F4F4;
+}
+
+#easyfrontendseo_lightbox {
+    background-color: white;
+    color: black;
+    position: relative;
+    z-index: 999;
+}
+
+#easyfrontendseo_lightbox label {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#easyfrontendseo_lightbox input[type="text"] {
+    width: 555px;
+    display: block;
+    height: auto;
+}
+
+#easyfrontendseo_lightbox input[type="checkbox"] {
+    vertical-align: text-bottom;
+    height: auto;
+}
+
+#easyfrontendseo_lightbox input[type="submit"] {
+    margin: 10px 0;
+}
+
+#easyfrontendseo_lightbox textarea {
+    width: 555px;
+    display: block;
+}
+
+#easyfrontendseo_lightbox .small {
+    font-size: 13px;
+}
+
+#easyfrontendseo_lightbox .efseo_disabled {
+    width: 560px;
+    display: block;
+    text-align: left;
+}
+
+#easyfrontendseo_lightbox .efseo_counter {
+    float: right;
+    color: #454545;
+}
+
+#easyfrontendseo_lightbox .donate_notice {
+    background-color: #FFEDF1;
+    padding: 10px;
+}
+
+#easyfrontendseo_lightbox .overwrite_notice {
+    background-color: #FCFA76;
+    padding: 10px;
+}
+
+#easyfrontendseo_lightbox.featherlight_hidden {
+    display: none;
+}
+
+#easyfrontendseo_lightbox.featherlight-inner {
+    display: inline-block;
+}
+

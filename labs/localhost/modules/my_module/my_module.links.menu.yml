@@ -1,0 +1,5 @@
+my_module.link:
+  title: 'news'
+  description: 'task3 module'
+  parent: system.admin_config_services
+  route_name: my_module.routing

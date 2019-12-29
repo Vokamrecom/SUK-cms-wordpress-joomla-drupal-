@@ -1,0 +1,312 @@
+// Login
+legend {
+	font-size: 19px;
+	font-weight: normal;
+	color: #212b36;
+	padding: 0 0 10px 0;
+	margin-bottom: 10px;
+}
+.login {
+	border-radius: 0;
+	border: 1px solid #efeff0;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 25px 25px 20px;
+	> form {
+		border: none;
+		border-radius: 0;
+		margin-bottom: 0;
+		@include box-shadow(none);
+		padding: 0;
+		background: transparent;
+		fieldset{
+			margin-bottom: 0;
+		}
+		button,
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+		}
+	}
+	.login-description {
+		img {
+			display: block;
+			margin: 20px 0;
+		}
+	}
+	.form-horizontal {
+		.control-label {
+			padding-top: 0;
+			float: none;
+			width: auto;
+			@include rtl-text-align-left();
+			label#password-lbl,
+			label#username-lbl{
+				display: none;
+			}
+		}
+		.controls{
+			@include rtl-margin-left(0);
+			text-align: center;
+		}
+	}
+	.control-group {
+		#remember {
+			height: auto;
+			width: auto;
+			vertical-align: middle;
+			margin: 0 4px 0 0;
+		}
+		label {
+			margin: 0;
+			vertical-align: middle;
+		}
+		&:nth-child(3){
+			margin-top: -3px;
+			margin-bottom: 13px;
+		}
+	}
+	.nav.nav-stacked {
+		border-bottom: none;
+		> li {
+			padding: 0;
+			> a {
+				border: none;
+				background: transparent;
+				// padding-bottom: 0;
+				&:hover {
+					border: none;
+					background: transparent;
+					@include box-shadow(none);
+				}
+			}
+		}
+	}
+
+}
+.profile-edit,
+.login,
+#user-registration,
+#member-registration {
+	.control-label {
+		@include rtl-float-left();
+		padding-top: 5px;
+		@include rtl-text-align-right();
+		clear: left;
+		color: #212b36;
+	}
+	.controls {
+		@include rtl-margin-left(115px);
+		input, textarea, .chzn-container {
+			&:-moz-placeholder {
+				color: #999;
+				opacity: 1;
+			}
+			&:-ms-input-placeholder {
+				color: #999; }
+				&::-webkit-input-placeholder {
+					color: #999; }
+					&::-ms-expand {
+						border: 0;
+						background-color: transparent;
+					}
+					.form-control[disabled], fieldset[disabled] .form-control {
+						cursor: not-allowed;
+					}
+				}
+			}
+			.control-group {
+				margin-bottom: 16px; 
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.remind, .reset {
+			> form {
+				> fieldset {
+					> p {
+						margin-bottom: 30px;
+						text-align: center;
+						margin-left: auto;
+						margin-right: auto;
+						@media (min-width: 992px) {
+							width: 56%;
+						}
+					}
+				}
+			}
+			.control-group {
+				max-width: 370px;
+				margin: 0 auto 20px;
+				.controls button[type=submit] {
+					width: 100%;
+				}
+			}
+		}
+		.reset{
+			input[type="text"]{
+				width: 100%;
+			}
+			.control-group {
+				max-width: 370px;
+				margin: 0 auto;
+			}
+		}
+		// User-registration
+		.registration {
+			#member-registration {
+				fieldset + fieldset {
+					margin-bottom: 60px;
+				}
+				legend {
+					border-bottom: 1px solid #E7EAEE;
+					margin-bottom: 25px;
+				}
+				.control-group {
+					max-width: 530px;
+					margin-left: auto;
+					margin-right: auto;
+					.control-label {
+						width: 155px;
+						span.spacer {
+							margin-bottom: 20px;
+							display: block;
+						}
+					}
+					.controls {
+						@include rtl-margin-left(170px);
+					}
+				}
+			}
+			#jform_privacyconsent_privacy {
+				input[type="radio"] {
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+		}
+		#user-registration,
+		#member-registration {
+			padding: 0;
+			background-color: transparent;
+			border: none;
+			box-shadow: none;
+			.control-group {
+				&:before {
+					display: table;
+					content: " ";
+					clear: both;
+				}
+			}
+			legend {
+				border: 0;
+				font-weight: bold;
+			}
+		}
+		.remind,
+		.reset {
+			button {
+				// min-width: 100%;
+			}
+			input[type="email"] {
+				width: calc(100%);
+			}
+		}
+		.profile {
+			legend {
+				text-align: left;
+			}
+			
+			.btn-toolbar {
+				margin-bottom: -50px;
+				@include rtl-padding-left(0);
+				background: #fff;
+			}
+			.btn-toolbar,
+			.btn-group{
+				background: transparent !important;
+				padding: 0;
+			}
+			dt, dd {
+				line-height: 30px;
+				font-weight: normal;
+
+			}
+			dt{
+				color: #212b36;
+			}
+			.dl-horizontal {
+				dd {
+					min-width: 200px;
+					@include rtl-text-align-left();
+					@media (min-width: 768px){
+						@include rtl-margin-left(190px);	
+					}
+					
+				}
+			}
+			[id^="users-profile-"] {
+				clear: both;
+				text-align: center;
+				dl.dl-horizontal {
+					display: inline-block;
+				}
+				&:not(:last-child){
+					border-bottom: 1px solid rgba(33, 43, 54, 0.1);
+				}
+			}
+			.icon-user:before {
+				font-family: fontAwesome;
+				content: '\f007';
+				padding-right: 3px;
+			}
+		}
+		.profile-edit {
+			.control-group {
+				max-width: 745px;
+				margin-left: auto;
+				margin-right: auto;
+				.control-label {
+					width: 250px;
+					@include rtl-margin-right(20px);
+					color: #212b36;
+				}
+				.controls {
+					@include rtl-margin-left(270px);
+					.chzn-container {
+						min-width: 250px;
+					}
+				}
+			}
+			.well {
+				background: transparent;
+				box-shadow: none;
+				border-radius: none;
+				border: none;
+				padding: 0;
+			}
+			#helpsite-refresh{    
+				padding: 8.5px 16px;
+				margin-top: 1px;
+			}
+			fieldset{
+				margin-bottom: 40px;
+			}
+		}
+		.profile-edit,
+		.profile {
+			legend {
+				margin-bottom: 10px;
+				border: none;
+			}
+		}
+		[id*="member-"] {
+			input[name*="jform[easydiscussprofile]"] {
+				max-width: 360px;
+			}
+			input[type="email"],input[type="password"],input[type="text"],textarea {
+				min-width: 252px;
+			}
+		}
+

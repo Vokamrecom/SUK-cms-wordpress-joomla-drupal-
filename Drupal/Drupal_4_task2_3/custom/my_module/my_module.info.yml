@@ -1,0 +1,4 @@
+name: 'News task3'
+description: 'task3'
+core: 8.x
+type: module

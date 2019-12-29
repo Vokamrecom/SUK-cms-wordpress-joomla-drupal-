@@ -1,0 +1,154 @@
+//Privacy fix
+fieldset#jform_privacyconsent_privacy.radio {
+  position: relative;
+  padding-left: 0;
+}
+fieldset#jform_privacyconsent_privacy.radio input[type=radio] {
+  margin-left: 0;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+fieldset#jform_privacyconsent_privacy.radio label {
+  margin-right: 10px;
+  display: block;
+}
+label#jform_privacyconsent_privacy-lbl a.modal {
+  display: inline-block;
+  position: static;
+}
+#member-registration .controls input {
+  margin-bottom: 15px;
+}
+
+// form contact
+
+.form-contact {
+  .control-group {
+    margin-bottom: 20px;
+    zoom: 1;
+    &:before {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    &:after {
+      display: table;
+      line-height: 0;
+      content: "";
+      clear: both;
+    }
+  }
+  .control-label {
+    @include rtl-float-left();
+    width: 160px;
+    padding-top: 5px;
+    @include rtl-text-align-right();
+  }
+  .controls {
+    display: inline-block;
+    @include rtl-padding-left(20px);
+    width: calc(100% - 180px);
+    input, textarea {
+    	display: block;
+    	width: 100%;
+    }
+
+  }
+  .help-block {
+    margin-bottom: 0;
+  }
+  input + .help-block,
+  select + .help-block,
+  textarea + .help-block,
+  .uneditable-input + .help-block,
+  .input-prepend + .help-block,
+  .input-append + .help-block {
+    margin-top: 10px;
+  }
+  .form-actions {
+    @include rtl-padding-left(180px);
+  }
+}
+.jsn-uniform{
+  .radio, .checkbox{
+    @include rtl-margin-left(20px);
+
+  }
+  .radio input[type="radio"], 
+  .checkbox input[type="checkbox"]{
+    margin-left: -20px;
+  }
+  select, 
+  textarea, 
+  input[type="text"], 
+  input[type="password"], 
+  input[type="datetime"], 
+  input[type="datetime-local"], 
+  input[type="date"], 
+  input[type="month"], 
+  input[type="time"], 
+  input[type="week"], 
+  input[type="number"], 
+  input[type="email"], 
+  input[type="url"], 
+  input[type="search"], 
+  input[type="tel"], 
+  input[type="color"], 
+  .uneditable-input {
+    margin-bottom: 9px;
+  }
+  .input-append{
+    .ui-datepicker-trigger.btn-icon{
+      padding: 8px 10px;
+      margin-top: -5px;
+      border: 1px solid #D1D6DE;
+      i.icon-calendar{
+        &:before{
+          //display: none;
+        }
+      }
+    }
+  }
+  @media(max-width: $screen-sm-min){
+    &.jsn-master  input[type="text"]{
+      width: 100% !important;
+    }
+  }
+}
+.sunfw-view-form.sunfw-layout-edit .modal {
+  z-index: 10;
+}
+.sunfw-com-users.sunfw-view-profile {
+  .profile-edit {
+    form {
+      input[type=radio] {
+        margin-left: 0;
+      }
+      button#helpsite-refresh {
+        padding: 14px 16px;
+      }
+      a.modal.btn {
+        display: inline-block;
+        position: static;
+        padding: 13.5px 16px;
+        border-color: #1b3281;
+		margin-left: 5px;
+		margin-right: 5px;
+		vertical-align: top;
+      }
+      a.btn.hasTooltip {
+        border-color: #1b3281;
+        padding: 13.5px 16px;
+		vertical-align: top;
+      }
+	  @media (max-width: $screen-sm-max) {
+		a.modal.btn, a.btn.hasTooltip {
+			margin-left: 0;
+			margin-right: 10px;
+			margin-top: 15px;
+		}
+	  }
+    }
+  }
+}

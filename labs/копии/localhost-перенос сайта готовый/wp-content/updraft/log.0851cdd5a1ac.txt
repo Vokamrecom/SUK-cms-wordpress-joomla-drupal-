@@ -1,0 +1,199 @@
+0000.000 (0) Opened log file at time: Mon, 23 Sep 2019 09:13:06 +0000 on http://localhost:8080
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.3 PHP: 7.1.22 (apache2handler, Windows NT VOKAMRECOM-PC 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.3.13-MariaDB WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 49.3M | 10M) multisite: N openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 581293.6 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Semaphore (fd, wp_options) being initialised
+0000.024 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.035 (0) Set semaphore last lock (fd) time to 2019-09-23 09:13:06
+0000.036 (0) Semaphore lock (fd) complete
+0000.040 (0) Backup run: resumption=0, nonce=0851cdd5a1ac, file_nonce=0851cdd5a1ac begun at=1569229986 (0s ago), job type=backup
+0000.042 (0) Scheduling a resumption (1) after 300 seconds (1569230286) in case this run gets aborted
+0000.069 (0) Checking if we have a zip executable available
+0000.071 (0) Creation of backups of directories: beginning
+0000.076 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.812 (0) Total entities for the zip file: 615 directories, 3815 files (0 skipped as non-modified), 79.2 MB
+0003.817 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.911 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 100 files added (on-disk size: 104.7 KB)
+0005.801 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 200 files added (on-disk size: 104.7 KB)
+0006.143 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 300 files added (on-disk size: 104.7 KB)
+0006.260 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10 MB, 305 (306) files added so far); re-opening (prior size: 104.7 KB)
+0008.236 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 400 files added (on-disk size: 8605.9 KB)
+0009.192 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 500 files added (on-disk size: 8605.9 KB)
+0010.266 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.6 MB, 291 (597) files added so far); re-opening (prior size: 8605.9 KB)
+0012.271 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 600 files added (on-disk size: 13245.7 KB)
+0012.432 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 700 files added (on-disk size: 13245.7 KB)
+0012.839 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 800 files added (on-disk size: 13245.7 KB)
+0013.239 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 900 files added (on-disk size: 13245.7 KB)
+0014.134 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1000 files added (on-disk size: 13245.7 KB)
+0014.263 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.6 MB, 427 (1024) files added so far); re-opening (prior size: 13245.7 KB)
+0016.249 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1100 files added (on-disk size: 15684.2 KB)
+0016.621 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1200 files added (on-disk size: 15684.2 KB)
+0017.271 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1300 files added (on-disk size: 15684.2 KB)
+0017.576 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1400 files added (on-disk size: 15684.2 KB)
+0017.862 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1500 files added (on-disk size: 15684.2 KB)
+0017.923 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.8 MB, 3815 files batched, 501 (1525) added so far); re-opening (prior size: 15684.2 KB)
+0020.936 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1600 files added (on-disk size: 23694.7 KB)
+0021.342 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1700 files added (on-disk size: 23694.7 KB)
+0021.643 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1800 files added (on-disk size: 23694.7 KB)
+0021.902 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 1900 files added (on-disk size: 23694.7 KB)
+0022.393 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2000 files added (on-disk size: 23694.7 KB)
+0022.436 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 MB, 3815 files batched, 501 (2026) added so far); re-opening (prior size: 23694.7 KB)
+0024.465 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2100 files added (on-disk size: 29831.9 KB)
+0025.137 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2200 files added (on-disk size: 29831.9 KB)
+0025.260 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.6 MB, 184 (2210) files added so far); re-opening (prior size: 29831.9 KB)
+0026.483 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2300 files added (on-disk size: 32557.5 KB)
+0027.189 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2400 files added (on-disk size: 32557.5 KB)
+0028.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.5 MB, 288 (2498) files added so far); re-opening (prior size: 32557.5 KB)
+0029.630 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2500 files added (on-disk size: 34910.5 KB)
+0030.583 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2600 files added (on-disk size: 34910.5 KB)
+0030.892 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2700 files added (on-disk size: 34910.5 KB)
+0031.093 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2800 files added (on-disk size: 34910.5 KB)
+0031.501 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 2900 files added (on-disk size: 34910.5 KB)
+0032.089 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.4 MB, 3815 files batched, 501 (2999) added so far); re-opening (prior size: 34910.5 KB)
+0034.494 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3000 files added (on-disk size: 38100.2 KB)
+0035.260 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3100 files added (on-disk size: 38100.2 KB)
+0035.893 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3200 files added (on-disk size: 38100.2 KB)
+0036.643 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3300 files added (on-disk size: 38100.2 KB)
+0036.931 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3400 files added (on-disk size: 38100.2 KB)
+0037.266 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 467 (3466) files added so far); re-opening (prior size: 38100.2 KB)
+0038.739 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3500 files added (on-disk size: 38810.6 KB)
+0038.858 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3600 files added (on-disk size: 38810.6 KB)
+0038.883 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3700 files added (on-disk size: 38810.6 KB)
+0038.906 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip.tmp: 3800 files added (on-disk size: 38810.6 KB)
+0040.208 (0) Created plugins zip (0) - 39663.4 KB in 40.1 s (988.4 KB/s) (sha1: 6b3ab7a3d6e6a1b71ade20c21c209c2b5938acbc, sha256: a811a71242e7ac97ed1b6d7df98b8d342f82c8cc166857a2f040649fbf521f44)
+0040.211 (0) Beginning creation of dump of themes (split every: 400 MB)
+0041.278 (0) Total entities for the zip file: 72 directories, 421 files (0 skipped as non-modified), 9.7 MB
+0041.779 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0042.282 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.5 MB, 200 (200) files added so far); re-opening (prior size: 0 KB)
+0043.008 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip.tmp: 200 files added (on-disk size: 4420.6 KB)
+0043.794 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip.tmp: 300 files added (on-disk size: 4420.6 KB)
+0044.226 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip.tmp: 400 files added (on-disk size: 4420.6 KB)
+0044.924 (0) Created themes zip (0) - 6395.8 KB in 4.7 s (1357.5 KB/s) (sha1: c057cbeb4d4f61ccd12d10cfa00757e9d49a2073, sha256: 059f80a4ac6eb2149a1fc283bd2665bfe4a24c24bad040684645e97b107e4ed4)
+0044.928 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0044.929 (0) Looking for candidates to backup in: W:\domains\localhost/wp-content/uploads
+0044.930 (0) finding files: 2018: adding to list (1)
+0044.931 (0) finding files: 2019: adding to list (2)
+0044.931 (0) finding files: elementor: adding to list (3)
+0044.932 (0) finding files: ti_theme_onboarding.log: adding to list (4)
+0044.932 (0) finding files: ur-logs: adding to list (5)
+0044.933 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0045.076 (0) Total entities for the zip file: 11 directories, 130 files (0 skipped as non-modified), 22.7 MB
+0046.318 (0) Zip: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0048.150 (0) Created uploads zip (0) - 23042.1 KB in 3.2 s (7167.9 KB/s) (sha1: a5a7fdccb81f1648dc709f05dbde3d96432ae6d7, sha256: c0cab784e372a09866e12c312925ef29f449c622f7fa94cb34572e49402c8e48)
+0048.153 (0) Beginning backup of other directories found in the content directory (index: 0)
+0048.155 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0048.156 (0) Looking for candidates to backup in: W:\domains\localhost/wp-content
+0048.157 (0) finding files: index.php: adding to list (1)
+0048.157 (0) finding files: languages: adding to list (2)
+0048.158 (0) finding files: plugins: skipping: this is the plugins directory
+0048.159 (0) finding files: themes: skipping: this is the themes directory
+0048.160 (0) finding files: updraft: skipping: this is the updraft directory
+0048.161 (0) finding files: upgrade: skipping: excluded by options
+0048.162 (0) finding files: uploads: skipping: this is the uploads directory
+0048.205 (0) Total entities for the zip file: 3 directories, 42 files (0 skipped as non-modified), 3.2 MB
+0048.871 (0) Created others zip (0) - 838.1 KB in 0.7 s (1186 KB/s) (sha1: efe529df51e9abafe388ec4f14de6f84861b2663, sha256: 0ab36db85a10d169d17a9042c4564424039b3e1aa1330ac48de5acc0a08f7ec6)
+0048.876 (0) Saving backup status to database (elements: 8)
+0048.878 (0) Beginning creation of database dump (WordPress DB)
+0049.086 (0) Table wp_options: Total expected rows (approximate): 431
+0049.119 (0) Table wp_options: Total rows added: 433 in 0.03 seconds
+0049.121 (0) Table wp_options: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_options.table.gz - 61.6 KB)
+0049.125 (0) Table wp_users: Total expected rows (approximate): 4
+0049.130 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0049.131 (0) Table wp_users: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_users.table.gz - 0.7 KB)
+0049.136 (0) Table wp_usermeta: Total expected rows (approximate): 71
+0049.142 (0) Table wp_usermeta: Total rows added: 71 in 0.01 seconds
+0049.144 (0) Table wp_usermeta: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_usermeta.table.gz - 1.6 KB)
+0049.148 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0049.153 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0049.154 (0) Table wp_commentmeta: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0049.159 (0) Table wp_comments: Total expected rows (approximate): 0
+0049.165 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0049.166 (0) Table wp_comments: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_comments.table.gz - 0.8 KB)
+0049.173 (0) Table wp_links: Total expected rows (approximate): 0
+0049.178 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0049.180 (0) Table wp_links: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_links.table.gz - 0.4 KB)
+0049.184 (0) Table wp_postmeta: Total expected rows (approximate): 423
+0049.208 (0) Table wp_postmeta: Total rows added: 429 in 0.02 seconds
+0049.211 (0) Table wp_postmeta: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_postmeta.table.gz - 36.1 KB)
+0049.218 (0) Table wp_posts: Total expected rows (approximate): 124
+0049.234 (0) Table wp_posts: Total rows added: 124 in 0.01 seconds
+0049.236 (0) Table wp_posts: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_posts.table.gz - 25.6 KB)
+0049.240 (0) Table wp_term_relationships: Total expected rows (approximate): 28
+0049.247 (0) Table wp_term_relationships: Total rows added: 28 in 0.01 seconds
+0049.248 (0) Table wp_term_relationships: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0049.252 (0) Table wp_term_taxonomy: Total expected rows (approximate): 16
+0049.257 (0) Table wp_term_taxonomy: Total rows added: 16 in 0.00 seconds
+0049.259 (0) Table wp_term_taxonomy: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0049.263 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0049.269 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0049.270 (0) Table wp_termmeta: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_termmeta.table.gz - 0.4 KB)
+0049.275 (0) Table wp_terms: Total expected rows (approximate): 14
+0049.281 (0) Table wp_terms: Total rows added: 16 in 0.00 seconds
+0049.282 (0) Table wp_terms: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_terms.table.gz - 0.7 KB)
+0049.289 (0) Table wp_booking: Total expected rows (approximate): 0
+0049.295 (0) Table wp_booking: Total rows added: 1 in 0.01 seconds
+0049.296 (0) Table wp_booking: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_booking.table.gz - 0.6 KB)
+0049.301 (0) Table wp_bookingdates: Total expected rows (approximate): 3
+0049.307 (0) Table wp_bookingdates: Total rows added: 3 in 0.00 seconds
+0049.308 (0) Table wp_bookingdates: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_bookingdates.table.gz - 0.4 KB)
+0049.312 (0) Table wp_cta_ip_failed_atts: Total expected rows (approximate): 0
+0049.317 (0) Table wp_cta_ip_failed_atts: Total rows added: 0 in 0.00 seconds
+0049.318 (0) Table wp_cta_ip_failed_atts: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_cta_ip_failed_atts.table.gz - 0.3 KB)
+0049.323 (0) Table wp_user_registration_sessions: Total expected rows (approximate): 0
+0049.328 (0) Table wp_user_registration_sessions: Total rows added: 0 in 0.00 seconds
+0049.330 (0) Table wp_user_registration_sessions: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_user_registration_sessions.table.gz - 0.4 KB)
+0049.352 (0) Table wp_ycd_subscribers: Total expected rows (approximate): 0
+0049.361 (0) Table wp_ycd_subscribers: Total rows added: 0 in 0.01 seconds
+0049.362 (0) Table wp_ycd_subscribers: finishing file (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_ycd_subscribers.table.gz - 0.3 KB)
+0049.367 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_options.table.gz (1/17): adding to final database dump
+0049.387 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_users.table.gz (2/17): adding to final database dump
+0049.388 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_usermeta.table.gz (3/17): adding to final database dump
+0049.389 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_commentmeta.table.gz (4/17): adding to final database dump
+0049.390 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_comments.table.gz (5/17): adding to final database dump
+0049.391 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_links.table.gz (6/17): adding to final database dump
+0049.392 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_postmeta.table.gz (7/17): adding to final database dump
+0049.403 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_posts.table.gz (8/17): adding to final database dump
+0049.409 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_term_relationships.table.gz (9/17): adding to final database dump
+0049.410 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_term_taxonomy.table.gz (10/17): adding to final database dump
+0049.411 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_termmeta.table.gz (11/17): adding to final database dump
+0049.412 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_terms.table.gz (12/17): adding to final database dump
+0049.413 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_booking.table.gz (13/17): adding to final database dump
+0049.414 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_bookingdates.table.gz (14/17): adding to final database dump
+0049.415 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_cta_ip_failed_atts.table.gz (15/17): adding to final database dump
+0049.416 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_user_registration_sessions.table.gz (16/17): adding to final database dump
+0049.417 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db-table-wp_ycd_subscribers.table.gz (17/17): adding to final database dump
+0049.422 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db.gz: finished writing out complete database file (104 KB)
+0049.431 (0) Total database tables backed up: 17 (backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db.gz, size: 130791, sha1: 2ceb02e61cbb4916d929e1de4bb35440102e9ce4, sha256: 02a6e154f2362cc6005d074837a57e473fc1f7e9b60751a0bdcd3c4a12691b11)
+0049.436 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0049.437 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0049.439 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0049.440 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-others.zip: others: This file has not yet been successfully uploaded: will queue
+0049.441 (0) backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db.gz: db: This file has not yet been successfully uploaded: will queue
+0049.442 (0) Saving backup history. Total backup size: 68.4 MB
+0049.444 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0049.446 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0049.446 (0) No remote despatch: user chose no remote backup service
+0049.448 (0) Recording as successfully uploaded: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-plugins.zip
+0049.450 (0) Recording as successfully uploaded: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-themes.zip
+0049.451 (0) Recording as successfully uploaded: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-uploads.zip
+0049.453 (0) Recording as successfully uploaded: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-others.zip
+0049.454 (0) Recording as successfully uploaded: backup_2019-09-23-1213_TeaLeaf_0851cdd5a1ac-db.gz
+0049.457 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0049.458 (0) Number of backup sets in history: 1; groups (db): 1
+0049.459 (0) Examining (for databases) backup set with group_id=0, nonce=0851cdd5a1ac, datestamp=1569229986 (Sep 23 2019 09:13:06)
+0049.460 (0) This backup set is the backup set just made, so will not be deleted.
+0049.460 (0) Number of backup sets in history: 1; groups (files): 1
+0049.461 (0) Examining (for files) backup set with nonce=0851cdd5a1ac, datestamp=1569229986 (Sep 23 2019 09:13:06)
+0049.461 (0) This backup set is the backup set just made, so will not be deleted.
+0049.461 (0) This backup set is the backup set just made, so will not be deleted.
+0049.461 (0) This backup set is the backup set just made, so will not be deleted.
+0049.462 (0) This backup set is the backup set just made, so will not be deleted.
+0049.462 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0049.462 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0049.464 (0) Resume backup (0851cdd5a1ac, 0): finish run
+0049.466 (0) Decremented the semaphore (fd) by 1
+0049.467 (0) Semaphore (fd) unlocked
+0049.467 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0049.508 (0) The backup apparently succeeded and is now complete
+0049.510 (0) No email will/can be sent - the user has not configured an email address.
+0049.510 (0) Резервное копирование успешно завершено

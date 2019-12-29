@@ -1,0 +1,196 @@
+
+// ======================================
+// ---------- Item Back To Top ----------
+// ======================================
+.sunfw-scrollup {
+    background-color: rgba(113,127,142,0.5);
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #999;
+    z-index: 10000;
+    padding: 12px 20px;
+    transition: color 0.3s linear, background 0.3s ease-in-out;
+    -moz-transition: color 0.3s linear, background 0.3s ease-in-out;
+    -webkit-transition: color 0.3s linear, background 0.3s ease-in-out;
+    text-align: center;
+    i.fa {
+        font-size: 16px;
+		margin: 0;
+    }
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    &.position-center {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);   
+        bottom: 0;
+        right: auto;
+    }
+    &.position-left {
+        left: 30px;
+        right: auto;
+    }
+}
+.sunfw-direction-rtl {
+	.sunfw-scrollup {
+		i.fa {
+			margin: 0;
+		}
+	}
+}
+// ======================================
+// --------------- Logo -----------------
+// ======================================
+.sunfw-item-logo{
+    .sunfw-logo{
+        img.miro-logo{
+            @media(min-width: 768px){
+                @include rtl-margin-left(40px);    
+            }
+            
+        }
+    }
+}
+// ======================================
+// --------------- Copyright ------------
+// ======================================
+
+// ======================================
+// ------------- Social Icon ------------
+// ======================================
+.sunfw-social {
+    ul.social{
+        @include rtl-margin-left(-11px);
+    }
+    li {
+        text-align: center;
+        text-align: center;
+        margin: 0px 5px;
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
+        a {
+            i{
+                @include size(30px, 30px);
+                line-height: 30px;
+                border-radius: 50%;
+                margin: 0;
+                &:hover{
+                    transition: all ease-in-out 0.3s;
+                    &.fa-facebook{
+                        color: #3B5999;
+                    }
+                    &.fa-twitter{
+                        color: #55ACEE;
+                    }
+                    &.fa-instagram{
+                        color: #000;
+                    }
+                    &.fa-pinterest{
+                        color: #FF0000;
+                    }
+                    &.fa-youtube-play{
+                        color: #FF0000;
+                    }
+                    &.fa-google-plus{
+                        color: #DD5643;
+                    }
+                    &.fa-linkedin{
+                        color: #0077B7;
+                    }
+                    &.fa-dribbble{
+                        color: #DD3E7B;
+                    }
+                    &.fa-behance{
+                        color: #8F00FF;
+                    }
+                    &.fa-flickr{
+                        color: #3F84E1;
+                    }
+                    &.fa-skype{
+                        color: #00B8ED;
+                    }
+                    &.fa-vk{
+                        color: #5181B8;
+                    }
+                }
+            }
+            span{
+                display: inline-block;                    
+            }
+        }
+    }
+    .social-top{
+        @include rtl-text-align-right();
+        @media(min-width: 768px){
+            @include rtl-margin-right(40px);
+        }
+    }
+}
+
+// ======================================
+// ------------- Cookia-low -------------
+// ======================================
+
+.cookialaw {
+    display: none;
+    z-index: 999;
+    p {
+        line-height: 34px;
+        margin-bottom: 0;
+    }
+
+    &.top {
+        top: 0;
+    }
+
+    &.left {
+        @include rtl-left(0);
+    }
+
+    &.right {
+        @include rtl-right(0);
+    }
+
+    &.bottom {
+        bottom: 0;
+    }
+
+    &.fixed {
+        position: fixed;
+    }
+
+    &.full {
+        width: 100%;
+    }
+
+    &.show {
+        display: block;
+    }
+
+}
+
+// ======================================
+// ------------- Custom HTML ------------
+// ======================================
+
+.custom-html {
+
+}
+
+// ======================================
+// ------------- Subscribe ------------
+// ======================================
+
+.subscribe {
+  .btn {
+    line-height: 20px;
+    border-radius: 0;
+}  
+}
+
